@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Expansion Board Hub XSD
+
+  Copyright 2022 NXP
+  SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<schema
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:data="data"
+  xmlns:enums="enums"
+  xmlns:nxp_platforms="nxp_platforms"
+  targetNamespace="data">
+
+
+  <import schemaLocation="enums.xsd" namespace="enums"/>
+  <import schemaLocation="nxp_platforms.xsd" namespace="nxp_platforms"/>
+
+
+  <complexType name="HTMLList">
+    <annotation>
+      <documentation>Type for HTML list containing 'li' elements</documentation>
+    </annotation>
+    <sequence>
+      <choice minOccurs="0" maxOccurs="unbounded">
+        <element name="li" type="data:HTMLElement" />
+        <element name="LI" type="data:HTMLElement" />
+      </choice>
+    </sequence>
+  </complexType>
+
+  <complexType name="HTMLElement">
+    <annotation>
+      <documentation>HTML element</documentation>
+    </annotation>
+    <complexContent>
+      <extension base="data:Overview">
+        <attribute name="title" use="optional"/>
+      </extension>
+    </complexContent>
+  </complexType>
+
+  <complexType name="Overview" mixed="true">
+    <annotation>
+      <documentation>Rich text with limited set of HTML tags for overview.</documentation>
+    </annotation>
+    <choice minOccurs="0" maxOccurs="unbounded">
+      <element name="a">
+        <complexType>
+          <complexContent>
+            <extension base="data:HTMLElement">
+              <attribute name="href"   use="required"/>
+              <attribute name="target" use="optional"/>
+            </extension>
+          </complexContent>
+        </complexType>
+      </element>
+
+      <element name="b"      type="data:HTMLElement" />
+      <element name="i"      type="data:HTMLElement" />
+      <element name="u"      type="data:HTMLElement" />
+      <element name="li"     type="data:HTMLElement" />
+      <element name="sup"    type="data:HTMLElement" />
+      <element name="sub"    type="data:HTMLElement" />
+      <element name="strike" type="data:HTMLElement" />
+
+      <element name="p"      type="data:Overview"/>
+
+      <element name="ul"     type="data:HTMLList"/>
+      <element name="ol"     type="data:HTMLList"/>
+
+      <element name="A">
+        <complexType>
+          <complexContent>
+            <extension base="data:HTMLElement">
+              <attribute name="href"   use="required"/>
+              <attribute name="target" use="optional"/>
+            </extension>
+          </complexContent>
+        </complexType>
+      </element>
+
+      <element name="B"      type="data:HTMLElement" />
+      <element name="I"      type="data:HTMLElement" />
+      <element name="U"      type="data:HTMLElement" />
+      <element name="LI"     type="data:HTMLElement" />
+      <element name="SUP"    type="data:HTMLElement" />
+      <element name="SUB"    type="data:HTMLElement" />
+      <element name="STRIKE" type="data:HTMLElement" />
+
+      <element name="P"      type="data:Overview"/>
+
+      <element name="UL"     type="data:HTMLList"/>
+      <element name="OL"     type="data:HTMLList"/>
+    </choice>
+  </complexType>
+
+
+  <element name="item">
+    <annotation>
+      <documentation>Root element of board definition.</documentation>
+    </annotation>
+    <complexType>
+      <sequence>
+        <element name="images" minOccurs="1" maxOccurs="1">
+          <annotation>
+            <documentation>Board image</documentation>
+          </annotation>
+          <complexType>
+            <sequence>
+              <element name="file" minOccurs="1" maxOccurs="unbounded">
+                <annotation>
+                  <documentation>Image file</documentation>
+                </annotation>
+                <complexType>
+                  <attribute name="path" use="required">
+                    <annotation>
+                      <documentation>Relative path to the image file (relative to location of the .xml file with board definition)</documentation>
+                    </annotation>
+                    <simpleType>
+                      <restriction base="string">
+                        <pattern value="[a-zA-Z0-9_\.]+\.(png|gif|PNG|GIF)"></pattern>
+                      </restriction>
+                    </simpleType>
+                  </attribute>
+                </complexType>
+              </element>
+            </sequence>
+          </complexType>
+        </element>
+        <element name="display_title" minOccurs="1" maxOccurs="1">
+          <annotation>
+            <documentation>Name of the board that should be displayed to users (a kind of brief description)</documentation>
+          </annotation>
+          <simpleType>
+            <restriction base="string">
+              <minLength value="3"></minLength>
+              <maxLength value="150"></maxLength>
+            </restriction>
+          </simpleType>
+        </element>
+        <element name="overview" minOccurs="1" maxOccurs="1" type="data:Overview">
+          <annotation>
+            <documentation>Long description of the board. May contain basic formatting html tag</documentation>
+          </annotation>
+        </element>
+        <element name="category" minOccurs="1" maxOccurs="unbounded">
+          <annotation>
+            <documentation>Board category</documentation>
+          </annotation>
+          <complexType>
+            <sequence>
+              <element name="category" minOccurs="0" maxOccurs="unbounded">
+                <annotation>
+                  <documentation>Sub-category. Only items applicable for top-level cateogry can be selected, otherwise import will terminated with an error.</documentation>
+                </annotation>
+                <complexType>
+                  <attribute name="name" use="required" type="enums:Subcategory">
+                    <annotation>
+                      <documentation>Sub-category. Only items applicable for top-level cateogry can be selected, otherwise import will terminated with an error.</documentation>
+                    </annotation>
+                  </attribute>
+                </complexType>
+              </element>
+            </sequence>
+            <attribute name="name" use="required" type="enums:Category">
+              <annotation>
+                <documentation>Sub-category. Only items applicable for top-level cateogry can be selected, otherwise import will terminated with an error.</documentation>
+              </annotation>
+            </attribute>
+          </complexType>
+        </element>
+        <element name="links" minOccurs="1" maxOccurs="unbounded">
+          <annotation>
+            <documentation>Links to external resources.</documentation>
+          </annotation>
+          <complexType>
+            <sequence>
+              <element name="link"  minOccurs="1" maxOccurs="unbounded">
+                <annotation>
+                  <documentation>Link to an external resource.</documentation>
+                </annotation>
+                <complexType>
+                  <attribute name="type" use="required" type="enums:LinkType">
+                    <annotation>
+                      <documentation>Type of the link.</documentation>
+                    </annotation>
+                  </attribute>
+                  <attribute name="href" use="required">
+                    <annotation>
+                      <documentation>Link to an external resource.</documentation>
+                    </annotation>
+                    <simpleType>
+                      <restriction base="string">
+                        <pattern value="https://.*"></pattern>
+                      </restriction>
+                    </simpleType>
+                  </attribute>
+                </complexType>
+              </element>
+            </sequence>
+          </complexType>
+          <unique name="UniqueLinkType">
+            <selector xpath="link" />
+            <field xpath="@type" />
+          </unique>
+        </element>
+        <element name="nxp_compatible_hw" minOccurs="1" maxOccurs="1">
+          <annotation>
+            <documentation>List of NXP compatible platforms.</documentation>
+          </annotation>
+          <complexType>
+            <sequence>
+              <element name="hw" minOccurs="1" maxOccurs="unbounded">
+                <annotation>
+                  <documentation>NXP platform that is the board compatible with.</documentation>
+                </annotation>
+                <complexType>
+                  <attribute name="id" use="required" type="nxp_platforms:NXP_Platforms">
+                    <annotation>
+                      <documentation>ID of the NXP platform that is the board compatible with.</documentation>
+                    </annotation>
+                  </attribute>
+                  <attribute name="verified" use="optional" type="boolean">
+                    <annotation>
+                      <documentation>True if the board has been tested and verified with the NXP plaftorm, false otherwise.</documentation>
+                    </annotation>
+                  </attribute>
+                </complexType>
+              </element>
+            </sequence>
+          </complexType>
+          <unique name="UniqueHWId">
+            <selector xpath="hw" />
+            <field xpath="@id" />
+          </unique>
+        </element>
+      </sequence>
+      <attribute name="id" use="required" type="enums:BoardId">
+        <annotation>
+          <documentation>ID of the board, used for internal identification. Must not change.</documentation>
+        </annotation>
+      </attribute>
+      <attribute name="name" use="required">
+        <annotation>
+          <documentation>Board name.</documentation>
+        </annotation>
+        <simpleType>
+          <restriction base="string">
+            <minLength value="3"></minLength>
+            <maxLength value="80"></maxLength>
+          </restriction>
+        </simpleType>
+      </attribute>
+      <attribute name="type" use="required" type="enums:ConnectorType">
+        <annotation>
+          <documentation>Type of the board.</documentation>
+        </annotation>
+      </attribute>
+      <attribute name="vendor" use="required" type="enums:Vendors"/>
+    </complexType>
+  </element>
+
+</schema>

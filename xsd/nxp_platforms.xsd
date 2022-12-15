@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Expansion Board Hub XSD, definition of NXP plaftorms.
+  This file is generated, do not modify it by hand.
+
+  Copyright 2022 NXP
+  SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:nxp_platforms="nxp_platforms" targetNamespace="nxp_platforms">
+
+  <simpleType name="NXP_Platforms">
+    <annotation>
+      <documentation> List of all NXP platforms supported in MCUX/SDK. </documentation>
+    </annotation>
+
+    <restriction base="string">
+      <enumeration value="ER-RD-FRDM-KW38">
+        <annotation>
+          <documentation>Freedom Development Platform for Kinetis K64, K63, and K24 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-K32H844P">
+      </enumeration>
+      <enumeration value="EVKB-IMXRT1050">
+        <annotation>
+          <documentation>ER-RD-FRDM-KW38</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MIMXRT1170-EVKB">
+        <annotation>
+          <documentation>EVK-K32H844P</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MCIMX6SLL">
+        <annotation>
+          <documentation>i.MX RT1050 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MCIMX6UL">
+        <annotation>
+          <documentation>i.MX RT1170 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MCIMX6ULL">
+        <annotation>
+          <documentation>EVK-MCIMX6SLL</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MCIMX6ULZ">
+        <annotation>
+          <documentation>EVK-MCIMX6UL</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMXRT1015">
+        <annotation>
+          <documentation>EVK-MCIMX6ULL</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMXRT1020">
+        <annotation>
+          <documentation>EVK-MCIMX6ULZ</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMXRT1060">
+        <annotation>
+          <documentation>i.MX RT1015 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMXRT1064">
+        <annotation>
+          <documentation>i.MX RT1020 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMXRT685">
+        <annotation>
+          <documentation>MIMXRT1060-EVK: i.MX RT1060 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FPGA-KW38">
+        <annotation>
+          <documentation>i.MX RT1064 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K32L322H">
+        <annotation>
+          <documentation>i.MX RT600 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K32W133">
+        <annotation>
+          <documentation>FPGA-KW38: Freedom Development Platform for Kinetis KW37, KW38, and KW39 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K22F">
+        <annotation>
+          <documentation>FRDM-K32W133</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K28F">
+        <annotation>
+          <documentation>FRDM-K32W153</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K28FA">
+        <annotation>
+          <documentation>Freedom Development Board for Kinetis K02 and K22 (100-120 MHz, 128-512 KB Flash) MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K32W042">
+        <annotation>
+          <documentation>The NXP FRDM-K28F is a development board for the Kinetis K28F MCU.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K64F">
+        <annotation>
+          <documentation>Freedom Development Board for Kinetis K27 and K28 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K66F">
+        <annotation>
+          <documentation>FRDM-K32W042: Freedom Development Platform for Kinetis K32W032S1M2 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K82F">
+        <annotation>
+          <documentation>Freedom Development Platform for Kinetis K66, K65, and K26 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KE02Z40M">
+        <annotation>
+          <documentation>Freedom Development Platform for Kinetis K82, K81, and K80 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KE04Z">
+        <annotation>
+          <documentation>Freedom Development Board for Kinetis KE04 (8KB Flash) MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KE06Z">
+        <annotation>
+          <documentation>Freedom Development Board for Kinetis KE04 (64-128 KB Flash) and KE06 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KE15Z">
+        <annotation>
+          <documentation>Freedom Development Board for Kinetis KE14 and KE15 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KE16Z">
+        <annotation>
+          <documentation>FRDM-KE16Z: Freedom Development Platform for Kinetis KE1xMCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL02Z">
+        <annotation>
+          <documentation>FRDM-KL02Z: Freedom Development Platform for the Kinetis KL02 Family</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL03Z">
+        <annotation>
+          <documentation>FRDM-KL03Z: Freedom Development Platform for Kinetis KL03 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL05Z">
+        <annotation>
+          <documentation>FRDM-KL05Z</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL25Z">
+        <annotation>
+          <documentation>FRDM-KL25Z: Freedom Development Platform for Kinetis® KL14, KL15, KL24, KL25 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL26Z">
+        <annotation>
+          <documentation>FRDM-KL26Z: Freedom Development Platform for Kinetis KL16 and KL26 MCUs (up to 128 KB Flash)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL27Z">
+        <annotation>
+          <documentation>Freedom Development Board for Kinetis KL17/KL27 (32-64 KB Flash) MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL28Z">
+      </enumeration>
+      <enumeration value="FRDM-KL43Z">
+        <annotation>
+          <documentation>FRDM-KL28Z: Freedom Development Platform for Kinetis KL28MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL46Z">
+        <annotation>
+          <documentation>Freedom Development Board for Kinetis KL13, KL17/KL27 (128-256KB Flash), KL33 and KL43 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL81Z">
+        <annotation>
+          <documentation>FRDM-KL46Z: Freedom Development Platform for Kinetis KL3x and KL4x MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KL82Z">
+        <annotation>
+          <documentation>FRDM-KL82Z: Freedom Development Board for Kinetis KL81 and KL82 MCUs.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KV10Z">
+        <annotation>
+          <documentation>FRDM-KL82Z: Freedom Development Board for Kinetis Ultra-Low-Power KL82 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KV11Z">
+        <annotation>
+          <documentation>FRDM-KV10Z: Freedom Development Platform for Kinetis® KV1x Family 16 KB and 32 KB Flash MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KV31F">
+        <annotation>
+          <documentation>Freedom Development Platform for Kinetis KV11 Family MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KW019032">
+        <annotation>
+          <documentation>Freedom Development Platform for Kinetis KV3x Family MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KW24">
+        <annotation>
+          <documentation>FRDM-KW019032: Freedom Development Board for Kinetis KW0x</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KW36">
+        <annotation>
+          <documentation>FRDM-KW24D512: NXP® Freedom Development Platform for Kinetis® KW2x MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KW38">
+        <annotation>
+          <documentation>FRDM-KW36: Freedom Development Platform for Kinetis KW36 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KW40Z">
+        <annotation>
+          <documentation>FRDM-KW38: Freedom Development Platform for Kinetis KW37, KW38, and KW39 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-KW41Z">
+        <annotation>
+          <documentation>FRDM-KW40Z</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HEXIWEAR">
+        <annotation>
+          <documentation>FRDM-KW41Z: NXP® Freedom Development Kit for Kinetis® KW41Z/31Z/21Z MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HVP-KE18F">
+        <annotation>
+          <documentation>HEXIWEAR: Hexiwear - Complete IoT Development Solution</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HVP-KV11Z75M">
+        <annotation>
+          <documentation>Kinetis KE18 MCU high-voltage development platform</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HVP-KV31F120M">
+        <annotation>
+          <documentation>Kinetis KV11 MCU high-voltage development platform</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HVP-KV46F150M">
+        <annotation>
+          <documentation>Kinetis KV31 MCU high-voltage development platform</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HVP-KV58F">
+        <annotation>
+          <documentation>Kinetis KV46 MCU high-voltage development platform</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPC54018-IoT-Module">
+        <annotation>
+          <documentation>Kinetis KV58 MCU high-voltage development platform</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPC8N04DevBoard">
+        <annotation>
+          <documentation>The LPC54S018-IoT-Module is an IoT development platform for LPC54S018 MCU</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso51U68">
+        <annotation>
+          <documentation>LPC8N04 Development Board for LPC8N04 MCU</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54018">
+        <annotation>
+          <documentation>LPCXpresso Development Board for LPC51U68</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54102">
+        <annotation>
+          <documentation>LPCXpresso Development Board for LPC540xx MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54114">
+        <annotation>
+          <documentation>LPCXpresso54102, OM13077: LPCXpresso™ Board for the LPC54100 family of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54608">
+        <annotation>
+          <documentation>LPCXpresso Development Board for the LPC5411x family of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54618">
+        <annotation>
+          <documentation>The LPCXpresso54608 is an development platform for LPC54605, LPC54606, LPC54607, LPC54608 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54628">
+        <annotation>
+          <documentation>The LPCXpresso54618 is an development platform for LPC54618, LPC54616 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54S608">
+        <annotation>
+          <documentation>LPCXpresso Development Board for the LPC546xx family of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54S018">
+        <annotation>
+          <documentation>LPCXpresso54S608</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso54S018M">
+        <annotation>
+          <documentation>LPCXpresso Development Board for LPC54S0xx MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso55S69">
+      </enumeration>
+      <enumeration value="LPCXpresso802">
+        <annotation>
+          <documentation>LPCXpresso Development Board for LPC55S6x family of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso804">
+        <annotation>
+          <documentation>LPCXpresso Development Board for LPC802</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso812MAX">
+        <annotation>
+          <documentation>LPCXpresso Development Board for LPC804</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso824MAX">
+        <annotation>
+          <documentation>LPCXpresso Development Board for the LPC81x family of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso845MAX">
+        <annotation>
+          <documentation>LPCXpresso Development Board for the LPC82x and LPC83x families of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MAPS-KS22">
+        <annotation>
+          <documentation>LPCXpresso Development Board for the LPC84x family of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="RAPIDIOTK64F">
+        <annotation>
+          <documentation>KS22: KS22-120MHz Microcontrollers (MCUs) based on ARM® Cortex®-M4 Core</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K20D50M">
+      </enumeration>
+      <enumeration value="TWR-K21D50M">
+        <annotation>
+          <documentation>RAPIDIOTK64F</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K21F120M">
+        <annotation>
+          <documentation>TWR-K20D50M</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K22F120M">
+        <annotation>
+          <documentation>TWR-K21D50M</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K24F120M">
+        <annotation>
+          <documentation>TWR-K21F120MA: TWR-K21F120MA: Kinetis K21 120 MHz Tower System Module.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K40D100M">
+        <annotation>
+          <documentation>The TWR-K22F120M is a development board for the Kinetis K22 32-bit ARM® Cortex®-M4 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K53N512">
+        <annotation>
+          <documentation>TWR-K24F120M</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K60D100M">
+        <annotation>
+          <documentation>TWR-K40D100M</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K64F120M">
+        <annotation>
+          <documentation>TWR-K53N512</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K65F180M">
+        <annotation>
+          <documentation>TWR-K60D100M</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K70F120M">
+        <annotation>
+          <documentation>TWR-K64F120M: Kinetis K64 MCU Tower System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K80F150M">
+        <annotation>
+          <documentation>TWR-K65F180M: Kinetis K65 MCU Tower System Module for Kinetis K26, K65, and K66 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-K81F150M">
+        <annotation>
+          <documentation>TWR-K70F120M</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KE18F150M">
+        <annotation>
+          <documentation>TWR-K80F150M: Kinetis K80 MCU Tower System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KE18F">
+        <annotation>
+          <documentation>TWR-K81F150M: Kinetis K81 MCU Tower System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KL25Z48M">
+        <annotation>
+          <documentation>TWR-KE18F150M</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KL28Z72M">
+        <annotation>
+          <documentation>Kinetis KE18 MCU Tower System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KL43Z48M">
+        <annotation>
+          <documentation>TWR-KL25Z48M</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KL81Z72M">
+      </enumeration>
+      <enumeration value="TWR-KL82Z72M">
+        <annotation>
+          <documentation>TWR-KL28Z72M: TWR-KL28Z72M: Kinetis KL28 MCU Tower System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KM34Z50MV3">
+        <annotation>
+          <documentation>The TWR-KL43Z48M Tower® System Module is based on the NXP® 48 MHz ARM® Cortex®-M0+ MKL43Z256VLH4 MCU and is a development tool for the Kinetis® KL43, KL33, KL27, KL17 families.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KM34Z75M">
+        <annotation>
+          <documentation>TWR-KL82Z72M: Tower System Development Board for Kinetis KL81 and KL82 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KV10Z32">
+        <annotation>
+          <documentation>TWR-KL82Z72M: Tower System Development Board for Kinetis Ultra-Low-Power KL82 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KV11Z75M">
+        <annotation>
+          <documentation>Modular Development Platform for Kinetis MKM34Z5 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KV31F120M">
+        <annotation>
+          <documentation>Modular Development Platform for Kinetis MKM34Z7 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KV46F150M">
+        <annotation>
+          <documentation>TWR-KV10Z32</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KV58F220M">
+        <annotation>
+          <documentation>TWR-KV11Z75M: Kinetis KV1x Family Tower System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KW21D256">
+        <annotation>
+          <documentation>TWR-KV31F120M: Kinetis® KV3x Family Tower® System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KW24D512">
+        <annotation>
+          <documentation>Kinetis KV4x Family Tower System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="USB-KW019032_K22F">
+        <annotation>
+          <documentation>Kinetis KV5x MCU Family Tower System Module</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="USB-KW019032">
+        <annotation>
+          <documentation>TWR-KW21D256</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="USB-KW24D512">
+        <annotation>
+          <documentation>TWR-KW24D512</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="USB-KW38">
+        <annotation>
+          <documentation>USB-KW019032_K22F</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="USB-KW40Z">
+        <annotation>
+          <documentation>USB-KW019032</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="USB-KW40Z_K22F">
+        <annotation>
+          <documentation>USB-KW24D512</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="USB-KW41Z_K22F">
+        <annotation>
+          <documentation>USB-KW38: Freedom Development Platform for Kinetis KW37, KW38, and KW39 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="USB-KW41Z">
+        <annotation>
+          <documentation>USB-KW40Z</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UVOICE">
+        <annotation>
+          <documentation>USB-KW40Z_K22F</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VAL-MCIMX7D">
+        <annotation>
+          <documentation>USB-KW41Z_K22F</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VIRTUAL-BOARD-KW35">
+        <annotation>
+          <documentation>USB-KW41Z</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVKB-MCIMX7ULP">
+        <annotation>
+          <documentation>UVOICE</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MCIMX7ULP">
+        <annotation>
+          <documentation>VAL-MCIMX7D</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMX8MM">
+        <annotation>
+          <documentation>VIRTUAL-BOARD-KW35</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMX8MN">
+        <annotation>
+          <documentation>Advanced Development Kit for JN5189/88</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMX8MQ">
+        <annotation>
+          <documentation>QN908x is an ultra low power Bluetooth Low Energy wireless MCU with on-chip memory, USB 2.0 full speed device interface, and 16-bit ADC for Bluetooth Smart applications.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MEK-MIMX8QX">
+        <annotation>
+          <documentation>Evaluation Kit for the i.MX 8M Mini Applications Processor</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NXH2004SDB">
+        <annotation>
+          <documentation>Evaluation Kit for the i.MX 8M Applications Processor</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VAL-MIMX8QM">
+        <annotation>
+          <documentation>i.MX 8QuadXPlus Multisensory Enablement Kit (MEK)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="JN5189DK6">
+        <annotation>
+          <documentation>LPCXpresso Development Board for LPC55S2x/LPC552x family of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="QN908XCDK">
+        <annotation>
+          <documentation>LPC845 Breakout Board for LPC84x family MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MEK-MIMX8QM">
+        <annotation>
+          <documentation>i.MX RT1170 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso55S28">
+        <annotation>
+          <documentation>Freedom Development Platform for K32 L3 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPC845BREAKOUT">
+        <annotation>
+          <documentation>i.MX RT1010 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MIMXRT1170-EVK">
+        <annotation>
+          <documentation>The FRDM-K32L4A50 is an development platform for K32L4A MCU</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K32L3A6">
+        <annotation>
+          <documentation>LPCXpresso Development Board for LPC55S1x/1x family of MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMXRT1010">
+        <annotation>
+          <documentation>i.MX RT595 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K32L4A">
+        <annotation>
+          <documentation>IMXRTRT595-VAL: Validation Platform for i.MX MIMXRT595S MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso55S16">
+        <annotation>
+          <documentation>Freedom Development Platform for K32 L2B MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EVK-MIMXRT595">
+      </enumeration>
+      <enumeration value="VAL-MIMXRT500">
+        <annotation>
+          <documentation>Modular Development Platform for Kinetis MKM35Z7 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-K32L2B">
+        <annotation>
+          <documentation>The LPCXpresso family of boards provides a powerful and flexible development system for NXP®'s Cortex-M MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TWR-KM35Z75M">
+        <annotation>
+          <documentation>MCU-based Solution for Alexa Voice Service</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="QN9090DK6">
+        <annotation>
+          <documentation>MIMXRT1060-EVK: EVK Development Platform for i.MX MIMXRT106L and MIMXRT1061 MCUs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SLN-AD-IOT">
+        <annotation>
+          <documentation>SLN-VIZN-IOT</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SLN-ALEXA-IOT">
+      </enumeration>
+      <enumeration value="SLN-LOCAL-IOT">
+      </enumeration>
+      <enumeration value="SLN-VIZN-IOT">
+      </enumeration>
+      <enumeration value="EVK-MIMX8ML">
+      </enumeration>
+      <enumeration value="FRDM-K32L2A4S">
+      </enumeration>
+      <enumeration value="MIMXRT1024-EVK">
+        <annotation>
+          <documentation>Evaluation Kit for the i.MX 8M Nano Applications Processor</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LPCXpresso1115">
+      </enumeration>
+      <enumeration value="EVK-MIMX8MP">
+      </enumeration>
+      <enumeration value="EVK-MIMXRT1050">
+      </enumeration>
+      <enumeration value="LPCXpresso55S06">
+      </enumeration>
+      <enumeration value="EVK-MIMX8DXL">
+      </enumeration>
+      <enumeration value="KW45B41Z-EVK">
+      </enumeration>
+      <enumeration value="KW45B41Z-LOC">
+      </enumeration>
+      <enumeration value="LPCXpresso55S36">
+      </enumeration>
+      <enumeration value="SLN-VIZNAS-IOT">
+      </enumeration>
+      <enumeration value="HVP-MC3PH-LITE">
+      </enumeration>
+      <enumeration value="MIMXRT1160-EVK">
+      </enumeration>
+      <enumeration value="EVK-MIMX8ULP">
+      </enumeration>
+      <enumeration value="MC56F83000-EVK">
+      </enumeration>
+      <enumeration value="LPCXpresso55S06CP">
+      </enumeration>
+      <enumeration value="MC56F81000-EVK">
+      </enumeration>
+      <enumeration value="RDMW320-R0">
+      </enumeration>
+      <enumeration value="EVK-MIMX8MNDDR3L">
+      </enumeration>
+      <enumeration value="SLN-LOCAL2-IOT">
+      </enumeration>
+      <enumeration value="FRDM-KE17Z">
+      </enumeration>
+      <enumeration value="MIMXRT1060-EVKB">
+      </enumeration>
+      <enumeration value="K32W148-EVK">
+      </enumeration>
+      <enumeration value="SLN-LOCAL2-RD">
+      </enumeration>
+      <enumeration value="MIMXRT685-AUD-EVK">
+      </enumeration>
+      <enumeration value="RDRW610">
+      </enumeration>
+      <enumeration value="TWR-MC56F8200">
+      </enumeration>
+      <enumeration value="TWR-MC56F8400">
+      </enumeration>
+      <enumeration value="SLN-VIZN3D-IOT">
+      </enumeration>
+      <enumeration value="PNEV76FAMA">
+      </enumeration>
+      <enumeration value="MIMXRT1040-EVK">
+      </enumeration>
+      <enumeration value="MIMXRT1180-EVB">
+      </enumeration>
+      <enumeration value="STUB-TEST">
+      </enumeration>
+      <enumeration value="MIMXRT1180-EVK">
+      </enumeration>
+      <enumeration value="LPCXpresso860MAX">
+      </enumeration>
+      <enumeration value="MCX-N9XX-EVK">
+      </enumeration>
+      <enumeration value="MCX-N5XX-EVK">
+      </enumeration>
+      <enumeration value="MC56F80000-EVK">
+      </enumeration>
+      <enumeration value="ISI-QMC-DGC-02">
+      </enumeration>
+      <enumeration value="MCX-W34X-EVK">
+      </enumeration>
+      <enumeration value="PNEV7642FAMA">
+      </enumeration>
+      <enumeration value="MCIMX93-EVK">
+      </enumeration>
+      <enumeration value="EVK9-MIMX8ULP">
+      </enumeration>
+      <enumeration value="RDRW610QFN">
+      </enumeration>
+      <enumeration value="KW45B41Z-EVK-NBU">
+      </enumeration>
+      <enumeration value="MCX-N9XX-BRK">
+      </enumeration>
+      <enumeration value="MCX-W74X-EVK">
+      </enumeration>
+      <enumeration value="MCX-W74X-EVK">
+      </enumeration>
+      <enumeration value="RD-RW612-BGA">
+      </enumeration>
+    </restriction>
+  </simpleType>
+
+</schema>

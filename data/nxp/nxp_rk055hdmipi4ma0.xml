@@ -1,0 +1,26 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_rk055hdmipi4ma0" name="RK055HDMIPI4MA0" type="other" vendor="nxp">
+  <images>
+    <file path="nxp_RK055HDMIPI4MA0.png"/>
+  </images>
+  <display_title>5.5" LCD Panel</display_title>
+  <overview>RK055HDMIPI4MA0 is a 5.5-inch TFT 720 x 1280 pixels panel with LED backlight, full viewing angle, MIPI interface and capacitive touch panel from Rocktech. This LCD panel can work with several i.MX RT EVKs for evaluation of applications with display.
+
+RK055HDMIPI4MA0 uses the RK055MHD091A0-CTG controller.</overview>
+  <category name="display">
+    <category name="lcd_display"/>
+    <category name="graphical_display"/>
+  </category>
+  <category name="interface">
+    <category name="display_interface"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/5-5-lcd-panel:RK055HDMIPI4MA0"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/a00ba4967196"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="EVK-MIMXRT595"/>
+    <hw id="MIMXRT1160-EVK"/>
+    <hw id="MIMXRT1170-EVKB"/>
+    <hw id="MIMXRT1170-EVK"/>
+  </nxp_compatible_hw>
+</data:item>

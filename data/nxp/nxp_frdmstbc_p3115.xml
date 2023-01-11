@@ -1,0 +1,36 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdmstbc_p3115" name="FRDMSTBC-P3115" type="arduino_header" vendor="nxp">
+  <images>
+    <file path="nxp_FRDMSTBC_P3115.png"/>
+  </images>
+  <display_title>Sensor Development Shield Board for MPL3115 Absolute Digital Pressure Sensor</display_title>
+  <overview><p>Sensor Toolbox provides a wide variety of sensor boards with compatible software tools for the MPL3115A2 Absolute Digital Pressure/Altimeter Sensor.</p>
+<p><strong>Sensor Boards:</strong></p>
+<ul>
+  <li>Shield Board: <a href="/part/FRDMSTBC-P3115">FRDMSTBC-P3115</a></li>
+  <li>Breakout Board: <a href="/part/BRKTSTBC-P3115">BRKTSTBC-P3115 </a></li>
+</ul>
+<p><strong>Embedded Software Framework:</strong></p>
+<ul>
+  <li>
+    <a href="https://mcuxpresso.nxp.com/en/welcome">MCUXpresso</a>
+  </li>
+</ul>
+<p><strong>Evaluation and Visualization Software:</strong></p>
+<ul>
+  <li>
+    <a href="/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/freedom-sensor-toolbox-community-edition-sensor-evaluation-and-visualization-software:SENSOR-TOOLBOX-CE">Sensor Toolbox-Community Edition</a> (STB-CE): Provides an Out-of-Box Demos for all the sensor available on the demo kit with this
+    sensor expansion board.
+  </li>
+</ul></overview>
+  <category name="sensors">
+    <category name="pressure"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/development-boards/freedom-development-boards/sensors/sensor-toolbox-development-platform-for-mpl3115a2-pressure-altimeter-sensor:FRDMSTBC-P3115"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/ed9e5bed7c74"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="FRDM-KL27Z"/>
+    <hw id="FRDM-KL25Z"/>
+  </nxp_compatible_hw>
+</data:item>

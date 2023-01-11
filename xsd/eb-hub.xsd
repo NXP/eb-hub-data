@@ -63,6 +63,7 @@
       <element name="sup"    type="data:HTMLElement" />
       <element name="sub"    type="data:HTMLElement" />
       <element name="strike" type="data:HTMLElement" />
+      <element name="strong" type="data:HTMLElement" />
 
       <element name="p"      type="data:Overview"/>
 
@@ -87,6 +88,7 @@
       <element name="SUP"    type="data:HTMLElement" />
       <element name="SUB"    type="data:HTMLElement" />
       <element name="STRIKE" type="data:HTMLElement" />
+      <element name="STRONG" type="data:HTMLElement" />
 
       <element name="P"      type="data:Overview"/>
 

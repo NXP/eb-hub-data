@@ -15,7 +15,7 @@
 ---
 
 ### Prequesities
-* For smooth process is recommended to have git latest repository repository cloned locally 
+* For smooth process is recommended to have git latest repository cloned locally 
 * Best is to functional Git env installed on your machine
 
 ---

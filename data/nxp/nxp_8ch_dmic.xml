@@ -1,0 +1,22 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_8ch_dmic" name="8CH-DMIC" type="other" vendor="nxp">
+  <images>
+    <file path="nxp_8CH_DMIC.png"/>
+  </images>
+  <display_title>Configurable Digital Microphone Board</display_title>
+  <overview>The 8CH-DMIC is a highly configurable digital microphone board to complement NXP’s MCU products that include PDM microphone interfaces. The board features 11 digital PDM microphones, with up to 8 active at a time, enabling many different microphone topologies to be configured for evaluation and development. The 8CH-DMIC connects to a host MCU evaluation board via a simple connector, which also provides power and optional drive signals to drive onboard LEDs. All design files are provided for the board, and example code is provided in the MCUXpresso SDK for the host MCU evaluation board.</overview>
+  <category name="audio">
+    <category name="microphone"/>
+  </category>
+  <category name="interface">
+    <category name="audio_interface"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/configurable-digital-microphone-board:8CH-DMIC"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/14add0aadffc"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="EVK-MIMXRT595"/>
+    <hw id="MIMXRT685-AUD-EVK"/>
+    <hw id="EVK-MIMXRT685"/>
+  </nxp_compatible_hw>
+</data:item>

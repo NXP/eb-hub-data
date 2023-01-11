@@ -1,0 +1,39 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdm_mc_lvpmsm" name="FRDM-MC-LVPMSM" type="frdm_header" vendor="nxp">
+  <images>
+    <file path="nxp_FRDM_MC_LVPMSM.png"/>
+  </images>
+  <display_title>NXP® Freedom Development Platform for Low-Voltage, 3-Phase PMSM Motor Control</display_title>
+  <overview>The FRDM-MC-LVPMSM low-voltage, 3-phase Permanent Magnet Synchronous Motor (PMSM) Freedom development board platform adds motor control capabilities, such as rotational or linear motion, to your design applications.
+
+This evaluation board, in a shield form factor, when combined with NXP®s Permanent Magnet Motor Control Reference Software, effectively turns a Freedom development board platform into a complete motor control reference design, compatible with existing Freedom development platforms.
+Motor control middleware product page: www.nxp.com/sdkmotorcontrol</overview>
+  <category name="interface">
+    <category name="motor_driver"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/development-boards/freedom-development-boards/mcu-boards/nxp-freedom-development-platform-for-low-voltage-3-phase-pmsm-motor-control:FRDM-MC-LVPMSM"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/5556d2f474bd"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="FRDM-KV11Z"/>
+    <hw id="FRDM-KE15Z"/>
+    <hw id="FRDM-KE16Z"/>
+    <hw id="FRDM-KE17Z"/>
+    <hw id="LPCXpresso55S69"/>
+    <hw id="LPCXpresso55S36"/>
+    <hw id="FRDM-KV31F"/>
+    <hw id="EVK-MIMXRT1010"/>
+    <hw id="EVK-MIMXRT1020"/>
+    <hw id="MIMXRT1024-EVK"/>
+    <hw id="EVKB-IMXRT1050"/>
+    <hw id="MIMXRT1060-EVKB"/>
+    <hw id="EVK-MIMXRT1060"/>
+    <hw id="EVK-MIMXRT1064"/>
+    <hw id="MIMXRT1160-EVK"/>
+    <hw id="MIMXRT1170-EVKB"/>
+    <hw id="MIMXRT1170-EVK"/>
+    <hw id="MC56F81000-EVK"/>
+    <hw id="MC56F83000-EVK"/>
+    <hw id="MC56F80000-EVK"/>
+  </nxp_compatible_hw>
+</data:item>

@@ -1,0 +1,23 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_om13790_dock" name="OM13790 Dock" type="arduino_header" vendor="nxp">
+  <images>
+    <file path="nxp_OM13790_Dock.png"/>
+  </images>
+  <display_title>USB Type-C Shield Board Gen 2 with Display Port Alt Mode</display_title>
+  <overview>The dock board is a video sink device (e.g. Display, Monitor). It supports power sink and dead battery start up during up default. Run time configuration for power role swap and data role swap.
+
+NXP’s Generation 2.0 USB Type-C shield board, combined with an MCUXpresso SDK with USB Power Delivery Stack, allows you to tether a USB Type-C connector to select Kinetis®, LPC, and i.MX RT Development Platforms. This shortens the learning curve by leveraging NXP’s Easy-to-use hardware and MCUXpresso software and tools, the only solution like it on the market. It enables Type-C support for display port alt-mode with seamless effort and offers numerous voltage protection services, promising easy and effective designs.
+
+Jump into development quickly with our ready-to-play USB Type-C Development Kit, including the USB Type-C Shield Generation 2 host or dock board, an AC/DC Adapter to power the shield board, MCUXpresso SDK with USB Power Delivery Stack, and hardware and software setup guides. Get the USB Type-C full development kit and experience it for yourselves.
+Fact sheet: https://www.nxp.com/docs/en/fact-sheet/GEN2SHIELDBRDFS.pdf</overview>
+  <category name="interface">
+    <category name="usb"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/products/interfaces/usb-interfaces/usb-type-c/om13790-host-dock-usb-type-c-shield-board-gen-2-with-display-port-alt-mode:OM13790"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/8a9583ce23bb"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="LPCXpresso54018"/>
+    <hw id="LPCXpresso55S69"/>
+  </nxp_compatible_hw>
+</data:item>

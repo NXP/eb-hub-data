@@ -1,0 +1,28 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_om_se050ard_e" name="OM-SE050ARD-E" type="arduino_header" vendor="nxp">
+  <images>
+    <file path="nxp_om_se050ard_e.png"/>
+  </images>
+  <display_title>EdgeLock® SE050 Development Kit</display_title>
+  <overview><p>The OM-SE050ARD-E is the flexible and easy-to-use development kit for the EdgeLock SE050 secure element Plug and Trust product family.</p>
+<ul>
+  <li>OM-SE050ARD-E is configured with the EdgeLock SE050E (Common Criteria certified EAL 6+ with extended range of ECC and symmetric cryptographic options)</li>
+</ul>
+<p>For more information on the EdgeLock SE050 configurations please download the respective Application Note <a href="https://www.nxp.com/docs/en/application-note/AN12436.pdf">AN12436</a>.</p>
+<p>The development kits can be used in various ways, for example, via the Arduino interface compatible to any board featuring an Arduino compatible header, including many i.MX, LPC and Kinetis<sup>®</sup> boards, or via a direct I<sup>2</sup>C connection. The kits allow evaluation of the SE050 product family features and simplify the development of secure IoT applications.</p>
+<p>More information can be found in the respective Application Note <a href="https://www.nxp.com/docs/en/application-note/AN13539.pdf" target="_blank">AN13539</a>.</p>
+<p>Additional examples can be found in the standalone EdgeLock SE05x Plug and Trust Middleware SDK package available in the Software section.</p></overview>
+  <category name="security">
+    <category name="secure_element"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/products/security-and-authentication/authentication/edgelock-se050-development-kits:OM-SE050X"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/c56675bde4b0"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="FRDM-K64F"/>
+    <hw id="LPCXpresso55S69"/>
+    <hw id="EVK-MIMXRT1060"/>
+    <hw id="MIMXRT1060-EVKB"/>
+    <hw id="MIMXRT1170-EVK"/>
+  </nxp_compatible_hw>
+</data:item>

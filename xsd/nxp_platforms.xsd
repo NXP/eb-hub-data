@@ -795,6 +795,8 @@
       </enumeration>
       <enumeration value="RD-RW612-BGA">
       </enumeration>
+      <enumeration value="RD-RW612-QFN">
+      </enumeration>
     </restriction>
   </simpleType>
 

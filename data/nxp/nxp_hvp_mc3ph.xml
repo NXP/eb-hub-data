@@ -1,0 +1,22 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_hvp_mc3ph" name="HVP-MC3PH" type="other" vendor="nxp">
+  <images>
+    <file path="nxp_HVP_MC3PH.png"/>
+  </images>
+  <display_title>High-Voltage Development Platform</display_title>
+  <overview>The NXP® High-Voltage Development Platform is an evaluation and development solution for Kinetis® V Series MCUs, Kinetis E Series MCUs and NXP Digital Signal Controllers.
+
+The platform enables development of 3-phase PMSM, BLDC and ACIM motor control and power factor correction solutions in a safe high-voltage environment
+It is an isolated solution that provides the development base for the Controller Cards supporting NXP MCUs
+The platform is compatible with all Kinetis V series MCUs, Kinetis E Series MCUs and DSC Controller Cards. The development platforms include HVP-KV46F150M controller card in the box.</overview>
+  <category name="interface">
+    <category name="motor_driver"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/kv-series-arm-cortex-m4-m0-plus-m7/high-voltage-development-platform:HVP-MC3PH"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/5556d2f474bd"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="HVP-KV31F120M"/>
+    <hw id="HVP-KV11Z75M"/>
+  </nxp_compatible_hw>
+</data:item>

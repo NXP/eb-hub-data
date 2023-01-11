@@ -1,0 +1,36 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdmkl27_b3115" name="FRDMKL27-B3115" type="arduino_header" vendor="nxp">
+  <images>
+    <file path="nxp_FRDMSTBI_B3115.png"/>
+  </images>
+  <display_title>Sensor Toolbox Development Platform for FXPQ3115BV Biomedical Precision Pressure Sensor</display_title>
+  <overview><p>Sensor Toolbox provides a wide variety of sensor boards with compatible software tools for the FXPQ3115BV Biomedical Precision Pressure Sensor.</p>
+<p><strong>Sensor Boards:</strong></p>
+<ul>
+  <li>Shield Board: <a href="/part/FRDMSTBI-B3115">FRDMSTBI-B3115</a></li>
+  <li>Breakout Board: <a href="/part/BRKTSTBI-B3115">BRKTSTBI-B3115</a></li>
+</ul>
+<p><strong>Embedded Software Framework:</strong></p>
+<ul>
+  <li>
+    <a href="https://mcuxpresso.nxp.com/en/welcome">MCUXpresso</a>
+  </li>
+</ul>
+<p><strong>Evaluation and Visualization Software:</strong></p>
+<ul>
+  <li>
+    <a href="/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/freedom-sensor-toolbox-community-edition-sensor-evaluation-and-visualization-software:SENSOR-TOOLBOX-CE">Sensor Toolbox-Community Edition</a> (STB-CE): Provides an Out-of-Box Demos for all the sensor available on the demo kit with this
+    sensor expansion board.
+  </li>
+</ul></overview>
+  <category name="sensors">
+    <category name="pressure"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/development-boards/freedom-development-boards/sensors/sensor-toolbox-development-platform-for-fxpq3115bv-biomedical-precision-pressure-sensor:FRDMKL27-B3115"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/ed9e5bed7c74"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="FRDM-KL25Z"/>
+    <hw id="FRDM-KL27Z"/>
+  </nxp_compatible_hw>
+</data:item>

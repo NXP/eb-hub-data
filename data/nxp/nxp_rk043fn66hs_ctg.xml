@@ -1,0 +1,29 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_rk043fn66hs_ctg" name="RK043FN66HS-CTG" type="other" vendor="nxp">
+  <images>
+    <file path="nxp_RK043FN66HS_CTG.png"/>
+  </images>
+  <display_title>4.3" LCD Panel</display_title>
+  <overview>RK043FN66HS-CTG is a 4.3 inch TFT 480 x 272 pixels with LED backlight and capacitive touch panel from Rocktech. This LCD panel can work with several i.MX RT EVKs and LPC MCUs for evaluation of applications with display.</overview>
+  <category name="display">
+    <category name="graphical_display"/>
+    <category name="lcd_display"/>
+  </category>
+  <category name="interface">
+    <category name="display_interface"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/4-3-lcd-panel:RK043FN66HS-CTG"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/a00ba4967196"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="EVK-MIMXRT1050"/>
+    <hw id="EVKB-IMXRT1050"/>
+    <hw id="EVK-MIMXRT1060"/>
+    <hw id="MIMXRT1060-EVKB"/>
+    <hw id="EVK-MIMXRT1064"/>
+    <hw id="MIMXRT1040-EVK"/>
+	<hw id="LPCXpresso54S018"/>
+    <hw id="LPCXpresso54S018M"/>
+    <hw id="LPCXpresso54628"/>
+  </nxp_compatible_hw>
+</data:item>

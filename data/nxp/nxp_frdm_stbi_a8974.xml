@@ -1,0 +1,33 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdm_stbi_a8974" name="FRDM-STBI-A8974" type="arduino_header" vendor="nxp">
+  <images>
+    <file path="nxp_FRDM_STBI_A8974.png"/>
+  </images>
+  <display_title>Sensor shield board for FXLS8974CF ultra-low power motion wakeup sensor for IoT applications.</display_title>
+  <overview><p>Sensor Boards:</p>
+<ul>
+  <li>Sensor shield board: FRDM-STBI-A8974 is a sensor add-on/companion shield board for FXLS8974CF
+    3-axis IoT accelerometer</li>
+</ul>
+
+<p>Embedded Software Framework:</p>
+<ul>
+    <li>IoT Sensing SDK: Provides Embedded sensor projects for the demo and custom kits through MCUXpresso</li>
+</ul>
+
+<p>Evaluation and Visualization Software:</p>
+<ul>
+    <li>FreeMASTER Sensor Tool: Provides out-of-box sensor demo and application development platform for
+        FXLS8974CF</li>
+</ul></overview>
+  <category name="sensors">
+    <category name="motion"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/sensor-toolbox-development-board-for-fxls8974cf-3-axis-iot-accelerometer:FRDM-K22F-A8974"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/ed9e5bed7c74"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="FRDM-K22F"/>
+    <hw id="LPCXpresso55S16"/>
+  </nxp_compatible_hw>
+</data:item>

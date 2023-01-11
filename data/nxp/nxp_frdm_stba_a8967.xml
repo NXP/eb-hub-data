@@ -1,0 +1,31 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdm_stba_a8967" name="FRDM-STBA-A8967" type="arduino_header" vendor="nxp">
+  <images>
+    <file path="nxp_FRDM_STBA_A8967.png"/>
+  </images>
+  <display_title>Sensor shield board for FXLS8967AF ultra-low- power motion wakeup sensor for Automotive convenience and security applications.</display_title>
+  <overview><p>Sensor toolbox development board for FXLS8967AF with enablement software tools.</p>
+<p>Sensor Boards:</p>
+<ul>
+  <li>Sensor shield board: FRDM-STBA-A8967 is a sensor add-on/companion shield board for FXLS8967AF 3-axis accelerometer for automotive security and convenience applications</li>
+</ul>
+<p>Embedded software framework:</p>
+<ul>
+  <li>IoT sensing SDK: Provides embedded sensor projects for the demo and custom kits through MCUXpresso</li>
+</ul>
+
+<p>Evaluation and Visualization Software:</p>
+<ul>
+  <li>FreeMASTER-Sensor-Tool: Provides out-of-box sensor demo and application development platform for FXLS8967AF</li>
+</ul></overview>
+  <category name="sensors">
+    <category name="motion"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/sensor-toolbox-development-board-for-fxls8967af-3-axis-accelerometer:FRDM-STBA-A8967"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/ed9e5bed7c74"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="FRDM-K22F"/>
+    <hw id="LPCXpresso55S16"/>
+  </nxp_compatible_hw>
+</data:item>

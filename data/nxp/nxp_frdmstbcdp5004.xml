@@ -1,0 +1,41 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdmstbcdp5004" name="FRDMSTBCDP5004" type="arduino_header" vendor="nxp">
+  <images>
+    <file path="nxp_FRDMSTBCDP5004.png"/>
+  </images>
+  <display_title>Sensor Development Shield Board for MPXx5004 Differential and Gauge, Integrated Analog Pressure Sensor</display_title>
+  <overview><p>
+  Sensor Toolbox provides a wide variety of sensor boards with compatible
+  software tools for the MPXV5004 differential pressure sensor.
+</p>
+<p><strong>Sensor Boards:</strong></p>
+<ul>
+  <li>Shield Board: <a href="/part/FRDMSTBCDP5004">FRDMSTBCDP5004</a></li>
+  <li>Breakout Board: <a href="/part/BRKTSTBCDP5004">BRKTSTBCDP5004</a></li>
+</ul>
+<p><strong>Embedded Software Framework:</strong></p>
+<ul>
+  <li>
+    <a href="https://mcuxpresso.nxp.com/en/welcome">MCUXpresso</a>
+  </li>
+</ul>
+<p><strong>Evaluation and Visualization Software:</strong></p>
+<ul>
+  <li>
+    <a href="/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/freedom-sensor-toolbox-community-edition-sensor-evaluation-and-visualization-software:SENSOR-TOOLBOX-CE"
+      >Sensor Toolbox-Community Edition</a
+    >
+    (STB-CE): Provides an Out-of-Box Demos for all the sensor available on the
+    demo kit with this sensor expansion board.
+  </li>
+</ul></overview>
+  <category name="sensors">
+    <category name="pressure"/>
+  </category>
+  <links>
+    <link type="product" href="https://www.nxp.com/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/sensor-toolbox-development-platform-for-mpxv5004dp-differential-pressure-sensor:FRDMSTBCDP5004"/>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/ed9e5bed7c74"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="FRDM-KE15Z"/>
+  </nxp_compatible_hw>
+</data:item>

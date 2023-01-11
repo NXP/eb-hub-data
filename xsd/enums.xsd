@@ -25,6 +25,31 @@
           <documentation> Murata </documentation>
         </annotation>
       </enumeration>
+      <enumeration value="u_blox">
+        <annotation>
+          <documentation> u-blox </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="azurewave">
+        <annotation>
+          <documentation> AzureWave </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="h_d_wireless">
+        <annotation>
+          <documentation> H&amp;D-Wireless </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="cel">
+        <annotation>
+          <documentation> CEL </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="laird_connectivity">
+        <annotation>
+          <documentation> Laird Connectivity </documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 
@@ -34,7 +59,7 @@
     </annotation>
 
     <restriction base="string">
-      <pattern value="(mikroe|nxp|murata)_[a-z0-9_]+"></pattern>
+      <pattern value="(mikroe|nxp|murata|u_blox|azurewave|h_d_wireless|cel|laird_connectivity)_[a-z0-9_]+"></pattern>
     </restriction>
   </simpleType>
 

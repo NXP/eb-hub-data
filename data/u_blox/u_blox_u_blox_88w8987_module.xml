@@ -1,0 +1,31 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="u_blox_u_blox_88w8987_module" name="u-Blox 88W8987 module" type="m2" vendor="u_blox">
+  <images>
+    <file path="u_blox_M2_JODY_W2_top_bottom.png"/>
+  </images>
+  <display_title>u-Blox Jody-W2</display_title>
+  <overview>The M2-JODY-W2 combines the maximum performance of the JODY-W2 module, small flexible automotive module supporting Wi-Fi 802.11ac at 105 °C Wi-Fi 5 and Bluetooth 5.2 connectivity, with the flexibility and ease of use of a M.2 card. The card supports all features of the JODY-W2 series modules and is based on the NXP 88W8987 chipset.</overview>
+  <category name="wireless">
+    <category name="bluetooth"/>
+    <category name="wi_fi"/>
+  </category>
+  <links>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/7aa9a6a7c2ec"/>
+    <link type="product" href="https://www.u-blox.com/en/product/m2-jody-w2-card"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="MIMXRT1170-EVKB"/>
+    <hw id="MIMXRT1170-EVK"/>
+    <hw id="MIMXRT1024-EVK"/>
+    <hw id="MIMXRT1160-EVK"/>
+    <hw id="EVK-MIMXRT1020"/>
+    <hw id="EVK-MIMXRT1060"/>
+    <hw id="EVK-MIMXRT1064"/>
+    <hw id="EVK-MIMXRT685"/>
+    <hw id="EVK-MIMXRT595"/>
+    <hw id="MIMXRT1060-EVKB"/>
+    <hw id="MIMXRT685-AUD-EVK"/>
+    <hw id="MIMXRT1040-EVK"/>
+    <hw id="MIMXRT1180-EVK"/>
+    <hw id="EVKB-IMXRT1050"/>
+  </nxp_compatible_hw>
+</data:item>

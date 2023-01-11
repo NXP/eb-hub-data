@@ -1,0 +1,25 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="murata_murata_mw320_module" name="muRata MW320 module" type="mikrobus" vendor="murata">
+  <images>
+    <file path="murata_m2_abr_evb_front__ALPHA.png"/>
+  </images>
+  <display_title>muRata Type-ABR</display_title>
+  <overview>Type ABR is a small module (integrated PCB antenna) based on NXP 88MW320 (wireless microcontroller), supporting Wi-Fi® 802.11 b/g/n up to 72.2 Mbps PHY data rate; with an integrated 200MHz ARM Cortex-M4F MCU for host-side applications.</overview>
+  <category name="wireless">
+    <category name="wi_fi"/>
+  </category>
+  <links>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/075da80bc09c"/>
+    <link type="product" href="https://www.murata.com/en-us/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/typeabr"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="FRDM-K32L2A4S"/>
+    <hw id="EVK-MIMXRT1010"/>
+    <hw id="EVK-MIMXRT1020"/>
+    <hw id="LPCXpresso55S69"/>
+    <hw id="LPCXpresso55S28"/>
+    <hw id="LPCXpresso55S16"/>
+    <hw id="LPCXpresso55S06"/>
+    <hw id="LPCXpresso55S36"/>
+    <hw id="LPCXpresso55S06CP"/>
+  </nxp_compatible_hw>
+</data:item>

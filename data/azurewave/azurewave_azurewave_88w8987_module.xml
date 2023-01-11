@@ -1,0 +1,31 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="azurewave_azurewave_88w8987_module" name="AzureWave 88W8987 module" type="m2" vendor="azurewave">
+  <images>
+    <file path="azurewave_aw_cm358ma__ALPHA.png"/>
+  </images>
+  <display_title>AzureWave AW-CM358MA</display_title>
+  <overview>The AW-CM358MA is a highly integrated NXP 88W8987 chipset-based WLAN and Bluetooth module, which support 802.11a/b/g/n/ac 1x1 and Bluetooth 5 combo module. It enables a high performance. Cost effective, low power, compact solution. The host interface supports SDIO for WLAN and UART for Bluetooth.</overview>
+  <category name="wireless">
+    <category name="bluetooth"/>
+    <category name="wi_fi"/>
+  </category>
+  <links>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/7aa9a6a7c2ec"/>
+    <link type="product" href="https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/i-mx-rt-crossover-mcus/azurewave-wi-fi-5-802-11ac-plus-bluetooth-chipset-based-m-2-evaluation-board-aw-cm358ma:AW-CM358"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="MIMXRT1170-EVKB"/>
+    <hw id="MIMXRT1170-EVK"/>
+    <hw id="MIMXRT1024-EVK"/>
+    <hw id="MIMXRT1160-EVK"/>
+    <hw id="EVK-MIMXRT1020"/>
+    <hw id="EVK-MIMXRT1060"/>
+    <hw id="EVK-MIMXRT1064"/>
+    <hw id="EVK-MIMXRT685"/>
+    <hw id="EVK-MIMXRT595"/>
+    <hw id="MIMXRT1060-EVKB"/>
+    <hw id="MIMXRT685-AUD-EVK"/>
+    <hw id="MIMXRT1040-EVK"/>
+    <hw id="MIMXRT1180-EVK"/>
+    <hw id="EVKB-IMXRT1050"/>
+  </nxp_compatible_hw>
+</data:item>

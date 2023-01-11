@@ -1,0 +1,35 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="murata_murata_88w8987_module" name="muRata 88W8987 module " type="m2" vendor="murata">
+  <images>
+    <file path="murata_m2_1zm_front_ALPHA.png"/>
+  </images>
+  <display_title>muRata Type-1ZM</display_title>
+  <overview>Type 1ZM is a small and very high-performance module based on NXP 88W8987 combo chipset which supports Wi-Fi® 802.11a/b/g/n/ac + Bluetooth® 5.1 BR/EDR/LE up to 433Mbps PHY data rate on Wi-Fi® and 3Mbps PHY data rate on Bluetooth®. The WLAN section supports SDIO 3.0 interface and the Bluetooth® section supports high-speed 4-wire UART interface and PCM for audio data.
+
+The 88W8987 implements highly sophisticated enhanced collaborative coexistence hardware mechanisms and algorithms, which ensure that WLAN and Bluetooth® collaboration is optimized for maximum performance.
+
+In IEEE 802.11ac mode, the WLAN operation supports rates of MCS0 - MCS9 (up to 256 QAM) in 20MHz, 40MHz and 80MHz channels for data rate up to 433Mbps.</overview>
+  <category name="wireless">
+    <category name="bluetooth"/>
+    <category name="wi_fi"/>
+  </category>
+  <links>
+    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/7aa9a6a7c2ec"/>
+    <link type="product" href="https://www.murata.com/en-us/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type1zm"/>
+  </links>
+  <nxp_compatible_hw>
+    <hw id="MIMXRT1024-EVK"/>
+    <hw id="EVK-MIMXRT1020"/>
+    <hw id="EVK-MIMXRT1060"/>
+    <hw id="EVK-MIMXRT1064"/>
+    <hw id="MIMXRT1060-EVKB"/>
+    <hw id="MIMXRT1040-EVK"/>
+    <hw id="EVKB-IMXRT1050"/>
+    <hw id="MIMXRT1170-EVKB"/>
+    <hw id="MIMXRT1170-EVK"/>
+    <hw id="MIMXRT1160-EVK"/>
+    <hw id="MIMXRT1180-EVK"/>
+    <hw id="EVK-MIMXRT595"/>
+    <hw id="MIMXRT685-AUD-EVK"/>
+    <hw id="EVK-MIMXRT685"/>
+  </nxp_compatible_hw>
+</data:item>

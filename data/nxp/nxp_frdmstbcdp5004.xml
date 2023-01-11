@@ -9,8 +9,8 @@
 </p>
 <p><strong>Sensor Boards:</strong></p>
 <ul>
-  <li>Shield Board: <a href="/part/FRDMSTBCDP5004">FRDMSTBCDP5004</a></li>
-  <li>Breakout Board: <a href="/part/BRKTSTBCDP5004">BRKTSTBCDP5004</a></li>
+  <li>Shield Board: <a href="https://nxp.com/part/FRDMSTBCDP5004">FRDMSTBCDP5004</a></li>
+  <li>Breakout Board: <a href="https://nxp.com/part/BRKTSTBCDP5004">BRKTSTBCDP5004</a></li>
 </ul>
 <p><strong>Embedded Software Framework:</strong></p>
 <ul>
@@ -21,7 +21,7 @@
 <p><strong>Evaluation and Visualization Software:</strong></p>
 <ul>
   <li>
-    <a href="/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/freedom-sensor-toolbox-community-edition-sensor-evaluation-and-visualization-software:SENSOR-TOOLBOX-CE"
+    <a href="https://nxp.com/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/freedom-sensor-toolbox-community-edition-sensor-evaluation-and-visualization-software:SENSOR-TOOLBOX-CE"
       >Sensor Toolbox-Community Edition</a
     >
     (STB-CE): Provides an Out-of-Box Demos for all the sensor available on the

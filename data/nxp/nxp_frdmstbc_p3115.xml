@@ -6,8 +6,8 @@
   <overview><p>Sensor Toolbox provides a wide variety of sensor boards with compatible software tools for the MPL3115A2 Absolute Digital Pressure/Altimeter Sensor.</p>
 <p><strong>Sensor Boards:</strong></p>
 <ul>
-  <li>Shield Board: <a href="/part/FRDMSTBC-P3115">FRDMSTBC-P3115</a></li>
-  <li>Breakout Board: <a href="/part/BRKTSTBC-P3115">BRKTSTBC-P3115 </a></li>
+  <li>Shield Board: <a href="https://nxp.com/part/FRDMSTBC-P3115">FRDMSTBC-P3115</a></li>
+  <li>Breakout Board: <a href="https://nxp.com/part/BRKTSTBC-P3115">BRKTSTBC-P3115 </a></li>
 </ul>
 <p><strong>Embedded Software Framework:</strong></p>
 <ul>
@@ -18,7 +18,7 @@
 <p><strong>Evaluation and Visualization Software:</strong></p>
 <ul>
   <li>
-    <a href="/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/freedom-sensor-toolbox-community-edition-sensor-evaluation-and-visualization-software:SENSOR-TOOLBOX-CE">Sensor Toolbox-Community Edition</a> (STB-CE): Provides an Out-of-Box Demos for all the sensor available on the demo kit with this
+    <a href="https://nxp.com/design/software/development-software/sensor-toolbox-sensor-development-ecosystem/freedom-sensor-toolbox-community-edition-sensor-evaluation-and-visualization-software:SENSOR-TOOLBOX-CE">Sensor Toolbox-Community Edition</a> (STB-CE): Provides an Out-of-Box Demos for all the sensor available on the demo kit with this
     sensor expansion board.
   </li>
 </ul></overview>

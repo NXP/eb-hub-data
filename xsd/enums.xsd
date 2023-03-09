@@ -469,6 +469,11 @@
           <documentation> Applies for "audio" only </documentation>
         </annotation>
       </enumeration>
+      <enumeration value="codec">
+        <annotation>
+          <documentation> Applies for "audio" only </documentation>
+        </annotation>
+      </enumeration>
 
       <!-- Display -->
       <enumeration value="led_display">

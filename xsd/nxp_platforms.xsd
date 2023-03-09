@@ -797,6 +797,14 @@
       </enumeration>
       <enumeration value="RD-RW612-QFN">
       </enumeration>
+      <enumeration value="MCIMX93-QSB">
+      </enumeration>
+      <enumeration value="MIMXRT1060-EVKC">
+      </enumeration>
+      <enumeration value="MCX-A14X-EVK">
+      </enumeration>
+      <enumeration value="MIMXRT1180A-EVK">
+      </enumeration>
     </restriction>
   </simpleType>
 

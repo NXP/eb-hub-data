@@ -17,8 +17,5 @@
   </links>
   <nxp_compatible_hw>
     <hw id="EVK-MIMXRT595"/>
-    <hw id="MIMXRT1160-EVK"/>
-    <hw id="MIMXRT1170-EVK"/>
-    <hw id="MIMXRT1170-EVKB"/>
   </nxp_compatible_hw>
 </data:item>

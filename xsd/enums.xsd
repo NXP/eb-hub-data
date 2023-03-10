@@ -157,17 +157,61 @@
     </annotation>
 
     <restriction base="string">
-      <enumeration value="interface"></enumeration>
-      <enumeration value="user_interface"></enumeration>
-      <enumeration value="biometrics"></enumeration>
-      <enumeration value="wireless"></enumeration>
-      <enumeration value="sensors"></enumeration>
-      <enumeration value="audio"></enumeration>
-      <enumeration value="display"></enumeration>
-      <enumeration value="storage"></enumeration>
-      <enumeration value="security"></enumeration>
-      <enumeration value="analog_front_end"></enumeration>
-      <enumeration value="other"></enumeration>
+      <enumeration value="interface">
+        <annotation>
+          <documentation> Interface </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="user_interface">
+        <annotation>
+          <documentation> User Interface </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="biometrics">
+        <annotation>
+          <documentation> Biometrics </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="wireless">
+        <annotation>
+          <documentation> Wireless </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="sensors">
+        <annotation>
+          <documentation> Sensors </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="audio">
+        <annotation>
+          <documentation> Audio </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="display">
+        <annotation>
+          <documentation> Display </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="storage">
+        <annotation>
+          <documentation> Storage </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="security">
+        <annotation>
+          <documentation> Security </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="analog_front_end">
+        <annotation>
+          <documentation> Analog front end </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="other">
+        <annotation>
+          <documentation> Other </documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 
@@ -181,422 +225,422 @@
       <!-- Interface -->
       <enumeration value="adapter">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> Adapter ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="port_expander">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> Port Expander ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="usb">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> USB ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="led_driver">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> LED Driver ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="motor_driver">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> Motor Driver ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="1_wire">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> 1-Wire ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="can">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> CAN ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="rs232">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> RS232 ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="ethernet">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> Ethernet ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="pwm">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> PWM ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="i2c">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> I2C ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="fiber_optics">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> Fiber Optics ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="spi">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> SPI ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="display_interface">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> Display Interface ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="audio_interface">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> Audio Interface ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_interface">
         <annotation>
-          <documentation> Applies for "interface" only </documentation>
+          <documentation> Other Interface ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- User Interface -->
       <enumeration value="buttons_switches">
         <annotation>
-          <documentation> Applies for "user_interface" only </documentation>
+          <documentation> Buttons/Switches ( Applies for "user_interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="capacitive">
         <annotation>
-          <documentation> Applies for "user_interface" only </documentation>
+          <documentation> Capacitive ( Applies for "user_interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="rotary_encoder">
         <annotation>
-          <documentation> Applies for "user_interface" only </documentation>
+          <documentation> Rotary encoder ( Applies for "user_interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="potentiometer">
         <annotation>
-          <documentation> Applies for "user_interface" only </documentation>
+          <documentation> Potentiometer ( Applies for "user_interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="haptic">
         <annotation>
-          <documentation> Applies for "user_interface" only </documentation>
+          <documentation> Haptic ( Applies for "user_interface" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_user_interface">
         <annotation>
-          <documentation> Applies for "user_interface" only </documentation>
+          <documentation> Other User Interface ( Applies for "user_interface" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Biometrics -->
       <enumeration value="fingerprint">
         <annotation>
-          <documentation> Applies for "biometrics" only </documentation>
+          <documentation> Fingerprint ( Applies for "biometrics" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="facial_recognition">
         <annotation>
-          <documentation> Applies for "biometrics" only </documentation>
+          <documentation> Facial recognition ( Applies for "biometrics" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="retinal_scan">
         <annotation>
-          <documentation> Applies for "biometrics" only </documentation>
+          <documentation> Retinal scan ( Applies for "biometrics" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="voice_analysis">
         <annotation>
-          <documentation> Applies for "biometrics" only </documentation>
+          <documentation> Voice analysis ( Applies for "biometrics" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_biometrics">
         <annotation>
-          <documentation> Applies for "biometrics" only </documentation>
+          <documentation> Other Biometrics ( Applies for "biometrics" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Wireless -->
       <enumeration value="gps">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> GPS ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="gsm">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> GSM ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="lte">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> LTE ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="lora">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> LoRa ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="bluetooth">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> Bluetooth ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="wi_fi">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> Wi-Fi ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="nfc">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> NFC ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="ntag">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> NTAG ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="rfid">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> RFID ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="uwb">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> UWB ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="zigbee">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> Zigbee ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="sigfox">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> SigFox ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_wireless">
         <annotation>
-          <documentation> Applies for "wireless" only </documentation>
+          <documentation> Other Wireless ( Applies for "wireless" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Sensors -->
       <enumeration value="temperature">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Temperature ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="humidity">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Humidity ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="proximity">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Proximity ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="pressure">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Pressure ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="optical">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Optical ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="motion">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Motion ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="magnetic">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Magnetic ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="force">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Force ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="gas">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Gas ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_sensors">
         <annotation>
-          <documentation> Applies for "sensors" only </documentation>
+          <documentation> Other Sensors ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Audio -->
       <enumeration value="speaker">
         <annotation>
-          <documentation> Applies for "audio" only </documentation>
+          <documentation> Speaker ( Applies for "audio" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="microphone">
         <annotation>
-          <documentation> Applies for "audio" only </documentation>
+          <documentation> Microphone ( Applies for "audio" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="speech_recognition">
         <annotation>
-          <documentation> Applies for "audio" only </documentation>
+          <documentation> Speech recognition ( Applies for "audio" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="signal_processing">
         <annotation>
-          <documentation> Applies for "audio" only </documentation>
+          <documentation> Signal Processing ( Applies for "audio" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="amplifier">
         <annotation>
-          <documentation> Applies for "audio" only </documentation>
+          <documentation> Amplifier ( Applies for "audio" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_audio">
         <annotation>
-          <documentation> Applies for "audio" only </documentation>
+          <documentation> Other Audio ( Applies for "audio" only ) </documentation>
         </annotation>
       </enumeration>
-      <enumeration value="codec">
+      <enumeration value="audio_codec">
         <annotation>
-          <documentation> Applies for "audio" only </documentation>
+          <documentation> Codec ( Applies for "audio" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Display -->
       <enumeration value="led_display">
         <annotation>
-          <documentation> Applies for "display" only </documentation>
+          <documentation> LED Display ( Applies for "display" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="lcd_display">
         <annotation>
-          <documentation> Applies for "display" only </documentation>
+          <documentation> LCD Display ( Applies for "display" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="oled_display">
         <annotation>
-          <documentation> Applies for "display" only </documentation>
+          <documentation> OLED Display ( Applies for "display" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="led">
         <annotation>
-          <documentation> Applies for "display" only </documentation>
+          <documentation> LED ( Applies for "display" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="graphical_display">
         <annotation>
-          <documentation> Applies for "display" only </documentation>
+          <documentation> Graphical Display ( Applies for "display" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="matrix_display">
         <annotation>
-          <documentation> Applies for "display" only </documentation>
+          <documentation> Matrix Display ( Applies for "display" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="segment_display">
         <annotation>
-          <documentation> Applies for "display" only </documentation>
+          <documentation> Segment display ( Applies for "display" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_display">
         <annotation>
-          <documentation> Applies for "display" only </documentation>
+          <documentation> Other Display ( Applies for "display" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Storage -->
       <enumeration value="eeprom">
         <annotation>
-          <documentation> Applies for "storage" only </documentation>
+          <documentation> EEPROM ( Applies for "storage" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="flash">
         <annotation>
-          <documentation> Applies for "storage" only </documentation>
+          <documentation> FLASH ( Applies for "storage" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="ram">
         <annotation>
-          <documentation> Applies for "storage" only </documentation>
+          <documentation> RAM ( Applies for "storage" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="memory_cards">
         <annotation>
-          <documentation> Applies for "storage" only </documentation>
+          <documentation> Memory Cards ( Applies for "storage" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="miscellaneous_storage">
         <annotation>
-          <documentation> Applies for "storage" only </documentation>
+          <documentation> Miscellaneous Storage ( Applies for "storage" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_storage">
         <annotation>
-          <documentation> Applies for "storage" only </documentation>
+          <documentation> Other Storage ( Applies for "storage" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Security -->
       <enumeration value="secure_element">
         <annotation>
-          <documentation> Applies for "security" only </documentation>
+          <documentation> Secure Element ( Applies for "security" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="miscellaneous_security">
         <annotation>
-          <documentation> Applies for "security" only </documentation>
+          <documentation> Miscellaneous Security ( Applies for "security" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_security">
         <annotation>
-          <documentation> Applies for "security" only </documentation>
+          <documentation> Other Security ( Applies for "security" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Analog front end -->
       <enumeration value="electromechanical_relay">
         <annotation>
-          <documentation> Applies for "analog_front_end" only </documentation>
+          <documentation> Electromechanical Relay ( Applies for "analog_front_end" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="solid_state_relay">
         <annotation>
-          <documentation> Applies for "analog_front_end" only </documentation>
+          <documentation> Solid State Relay ( Applies for "analog_front_end" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="real_time_clock">
         <annotation>
-          <documentation> Applies for "analog_front_end" only </documentation>
+          <documentation> Real Time Clock ( Applies for "analog_front_end" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="optocoupler">
         <annotation>
-          <documentation> Applies for "analog_front_end" only </documentation>
+          <documentation> Optocoupler ( Applies for "analog_front_end" only ) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="other_analog_front_end">
         <annotation>
-          <documentation> Applies for "analog_front_end" only </documentation>
+          <documentation> Other Analog front end ( Applies for "analog_front_end" only ) </documentation>
         </annotation>
       </enumeration>
 
       <!-- Other -->
       <enumeration value="special">
         <annotation>
-          <documentation> Applies for "other" only </documentation>
+          <documentation> Special ( Applies for "other" only ) </documentation>
         </annotation>
       </enumeration>
 

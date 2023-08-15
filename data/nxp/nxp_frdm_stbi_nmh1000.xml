@@ -1,0 +1,24 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdm_stbi_nmh1000" name="FRDM-STBI-NMH1000" type="arduino_header" vendor="nxp">
+    <images>
+        <file path="nxp_FRDMSTBI_NMH1000.png"></file>
+    </images>
+    <display_title>
+        Sensor shield board for NMH1000 Ultra-Low Power and Low-Voltage Magnetic Switch Sensor
+    </display_title>
+    <overview>
+        <![CDATA[<div>Sensor Boards:</div><div><ul><li>Sensor shield board: FRDM-STBI-NMH1000 is a sensor add-on/companion shield board for NMH1000 Ultra-Low Power and Low-Voltage Magnetic Switch Sensor</li></ul></div><div>Embedded Software Framework:</div><div><ul><li>IoT Sensing SDK: Provides Embedded sensor projects for the demo and custom kit (FRDMKE15-NMH1000) through MCUXpresso.</li></ul></div><div>Evaluation and Visualization Software:</div><div><ul><li>FreeMASTER Sensor Tool: Provides out-of-box sensor demo and application development platform for NMH1000</li></ul></div>]]>
+    </overview>
+    <category name="sensors">
+        <category name="magnetic"></category>
+    </category>
+    <category name="interface">
+        <category name="i2c"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/design/software/sensor-toolbox/frdmstbi-nmh1000-freedom-shield-evaluation-board:FRDMSTBI-NMH1000"/>
+        <link type="sdk" href="https://mcuxpresso.nxp.com/en/builder?hw=FRDMKE15-NMH1000"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-KE15Z"></hw>
+    </nxp_compatible_hw>
+</data:item>

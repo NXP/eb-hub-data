@@ -1,0 +1,24 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_flash_3_click" name="Flash 3 Click" type="mikrobus" vendor="mikroe">
+    <images>
+        <file path="mikroe_Flash_3_Click.png"></file>
+    </images>
+    <display_title>
+        Mass storage option in multimedia devices, drives, optical and printing devices
+    </display_title>
+    <overview>
+        <![CDATA[<div>Flash 3 Click is a mikroBUS add-on board for adding more Flash Memory to your target board microcontroller. It carries an ISSI IS25LP128 IC with 128 Mbit capacity.<br/><ul><li>The high-performance Flash chip operates at 50MHz at Normal and 133MHz at Fast Read speeds.</li><li>It is specified to standard 100,000 erase/program cycles with more than 20 years of data retention. The data can be erased in sectors or blocks and programmed with 1 to 256 bytes per page.</li><li>Each chip has a 128-bit unique ID for each device.</li><li>Flash 3 communicates with the target board through the mikroBUS™ SPI interface with additional functionality provided by HOLD, CE and WP pins. It is designed to use a 3.3V power supply only.</li></ul></div>]]>
+    </overview>
+    <category name="storage">
+        <category name="flash"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/flash-3-click"/>
+        <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/61cd2a2c799b"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="LPCXpresso55S69"></hw>
+        <hw id="LPCXpresso55S28"></hw>
+        <hw id="LPCXpresso55S16"></hw>
+        <hw id="LPCXpresso55S06"></hw>
+    </nxp_compatible_hw>
+</data:item>

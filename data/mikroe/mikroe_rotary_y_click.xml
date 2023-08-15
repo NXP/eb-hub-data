@@ -1,0 +1,26 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_rotary_y_click" name="ROTARY Y CLICK" type="mikrobus" vendor="mikroe">
+    <images>
+        <file path="mikroe_ROTARY_Y_CLICK.png"></file>
+    </images>
+    <display_title>
+        Can be used for various interesting visual effects to any application, such as flexible position, value indicator, or many others
+    </display_title>
+    <overview>
+        <![CDATA[<div>ROTARY Y Click is a compact add-on board that allows you to add a precision input knob to your design.</div><div><ul><li>This board features a combination of a high-quality rotary encoder, the EC12D1564402, and a LED ring composed of 16 individual yellow LEDs.</li><li>The 16-segment LED ring is driven by two SN74HC595 SPI-configurable 8-bit shift registers from Texas Instruments, which can control each LED individually, allowing various lighting effects to be programmed.</li><li>The encoder outputs A and B signals (out of phase to each other) on the two mikroBUS™ lines, alongside the knob push-button feature, which outputs through the interrupt line.</li></ul>This Click board™ can be used for various interesting visual effects to any application, such as flexible position, value indicator, or many others.<br/></div>]]>
+    </overview>
+    <category name="user_interface">
+        <category name="rotary_encoder"></category>
+    </category>
+    <category name="interface">
+        <category name="spi"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/rotary-y-click"/>
+        <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/6d8b5eb1be33"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="LPCXpresso55S16"></hw>
+        <hw id="LPCXpresso55S28"></hw>
+        <hw id="LPCXpresso55S69"></hw>
+    </nxp_compatible_hw>
+</data:item>

@@ -10,7 +10,8 @@
   xmlns:data="data"
   xmlns:enums="enums"
   xmlns:platforms="platforms"
-  targetNamespace="data">
+  targetNamespace="data"
+  version="1.0.0">
 
 
   <import schemaLocation="enums.xsd" namespace="enums"/>
@@ -250,6 +251,12 @@
           </unique>
         </element>
       </sequence>
+
+      <attribute name="versionSchema" use="optional" default="1.0.0">
+        <annotation>
+          <documentation>Version number x.x.x of XSD schema</documentation>
+        </annotation>
+      </attribute>
       <attribute name="id" use="required" type="enums:BoardId">
         <annotation>
           <documentation>ID of the board, used for internal identification. Must not change.</documentation>

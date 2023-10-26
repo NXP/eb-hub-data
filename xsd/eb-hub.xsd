@@ -13,8 +13,8 @@
   targetNamespace="data">
 
 
-  <import schemaLocation="ebh_enums.xsd" namespace="enums"/>
-  <import schemaLocation="ebh_platforms.xsd" namespace="platforms"/>
+  <import schemaLocation="enums.xsd" namespace="enums"/>
+  <import schemaLocation="nxp_platforms.xsd" namespace="platforms"/>
 
 
   <complexType name="HTMLList">

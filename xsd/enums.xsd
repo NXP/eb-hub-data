@@ -94,6 +94,11 @@
           <documentation> Link to the SW pack </documentation>
         </annotation>
       </enumeration>
+      <enumeration value="compatible_sdk">
+        <annotation>
+          <documentation>  </documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

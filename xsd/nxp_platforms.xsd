@@ -1037,6 +1037,13 @@
           <documentation>i.MX RT700 Evaluation Kit</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="SLN-TLHMI-IOT">
+      </enumeration>
+      <enumeration value="FRDM-MCXL144">
+        <annotation>
+          <documentation>MCXL144 Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

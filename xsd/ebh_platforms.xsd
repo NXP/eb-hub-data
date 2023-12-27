@@ -1046,7 +1046,7 @@
       </enumeration>
       <enumeration value="IMX943LPD5EVK-19">
         <annotation>
-          <documentation>i.MX95LPD5 Evaluation Kit 19x19</documentation>
+          <documentation>i.MX943LPD5 Evaluation Kit 19x19</documentation>
         </annotation>
       </enumeration>
     </restriction>

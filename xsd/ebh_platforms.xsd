@@ -1044,6 +1044,11 @@
           <documentation>MCXL144 Evaluation Kit</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="IMX943LPD5EVK-19">
+        <annotation>
+          <documentation>i.MX95LPD5 Evaluation Kit 19x19</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

@@ -1049,6 +1049,11 @@
           <documentation>i.MX943 Evaluation Kit</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="MC56F81868-EVK">
+        <annotation>
+          <documentation>Development Board for MC56F81xxx Secure Digital Signal Controllers</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

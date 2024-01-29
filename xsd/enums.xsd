@@ -486,6 +486,11 @@
           <documentation> Other Sensors ( Applies for "sensors" only ) </documentation>
         </annotation>
       </enumeration>
+      <enumeration value="accelerometer">
+        <annotation>
+          <documentation> Accelerometer ( Applies for "sensors" only ) </documentation>
+        </annotation>
+      </enumeration>
 
       <!-- Audio -->
       <enumeration value="speaker">

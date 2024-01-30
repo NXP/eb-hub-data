@@ -1,0 +1,27 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_tft_proto_5_capacitive" name="TFT PROTO 5 Capacitive" type="other" vendor="mikroe" versionSchema="1.0.0">
+    <images>
+        <file path="TFT_PROTO_5_Capacitive.png"></file>
+    </images>
+    <display_title>
+        A cost-effective and practical solution for adding a TFT touchscreen interface to your design
+    </display_title>
+    <overview>
+        <![CDATA[<strong>TFT PROTO 5" Capacitive&nbsp;</strong>carries the 800x480&nbsp;<a href="https://download.mikroe.com/documents/datasheets/RVT50AQTNWC00-Rev.1.0.pdf">RVT50AQTNWC00</a>&nbsp;TFT screen. The&nbsp;<a href="http://www.solomon-systech.com/en/product/display-system-solutions/display-controller/ssd1962/">SSD1963</a>&nbsp;display controller drives the TFT display, with a 1215K byte buffer that supports up to 864x480 at 24bpp displays.]]>
+    </overview>
+    <category name="display">
+        <category name="lcd_display"></category>
+    </category>
+    <category name="interface">
+        <category name="i2c"></category>
+    </category>
+    <category name="user_interface">
+        <category name="capacitive"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/tft-proto-5-capacitive-board"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=TFT%20PROTO%205%20Capacitive"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="MCX-N9XX-EVK"></hw>
+    </nxp_compatible_hw>
+</data:item>

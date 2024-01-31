@@ -1,20 +1,27 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdm_touch" name="FRDM_TOUCH" type="arduino_header" vendor="nxp">
-  <images>
-    <file path="nxp_FRDM_TOUCH.png"/>
-  </images>
-  <display_title>Touch Module for Freedom Board</display_title>
-  <overview>The FRDM-TOUCH is a Touch Module for FRDM-KE15Z with Capacitive Touch sliders. This board can connect FRDM-KE15Z and control the on-board RBG LED by using keys, slider and rotary touches.</overview>
-  <category name="user_interface">
-    <category name="capacitive"/>
-  </category>
-  <links>
-    <link type="product" href="https://www.nxp.com/design/development-boards/freedom-development-boards/adaptors/touch-module-for-freedom-board:FRDM-TOUCH"/>
-    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/ade7e8581cb9"/>
-  </links>
-  <nxp_compatible_hw>
-    <hw id="FRDM-KE15Z"/>
-    <hw id="FRDM-KE16Z"/>
-    <hw id="FRDM-KE17Z"/>
-    <hw id="FRDM-K32L2A4S"/>
-  </nxp_compatible_hw>
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdm_touch" name="FRDM_TOUCH" type="arduino_header" vendor="nxp" versionSchema="1.0.0">
+    <images>
+        <file path="nxp_FRDM_TOUCH.png"></file>
+    </images>
+    <display_title>
+        Touch Module for Freedom Board
+    </display_title>
+    <overview>
+        <![CDATA[The FRDM-TOUCH is a Touch Module for FRDM-KE15Z with Capacitive Touch sliders. This board can connect FRDM-KE15Z and control the on-board RBG LED by using keys, slider and rotary touches.]]>
+    </overview>
+    <category name="user_interface">
+        <category name="capacitive"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/design/development-boards/freedom-development-boards/adaptors/touch-module-for-freedom-board:FRDM-TOUCH"/>
+        <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/ade7e8581cb9"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-KE15Z"></hw>
+        <hw id="FRDM-KE16Z"></hw>
+        <hw id="FRDM-KE17Z"></hw>
+        <hw id="FRDM-K32L2A4S"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+        <hw id="MCX-N9XX-EVK"></hw>
+        <hw id="MCX-N5XX-EVK"></hw>
+    </nxp_compatible_hw>
 </data:item>

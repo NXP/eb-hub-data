@@ -23,5 +23,6 @@
     </links>
     <nxp_compatible_hw>
         <hw id="MCX-N9XX-EVK"></hw>
+        <hw id="FRDM-MCXN947"></hw>
     </nxp_compatible_hw>
 </data:item>

@@ -367,6 +367,16 @@
           <documentation> Other Biometrics ( Applies for "biometrics" only ) </documentation>
         </annotation>
       </enumeration>
+      <enumeration value="pulse_oximeter">
+        <annotation>
+          <documentation> Pulse oximeter ( Applies for "biometrics" only ) </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="heart_rate">
+        <annotation>
+          <documentation> Heart rate ( Applies for "biometrics" only ) </documentation>
+        </annotation>
+      </enumeration>
 
       <!-- Wireless -->
       <enumeration value="gps">

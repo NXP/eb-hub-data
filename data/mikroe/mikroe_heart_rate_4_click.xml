@@ -1,0 +1,25 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_heart_rate_4_click" name="HEART RATE 4 CLICK" type="mikrobus" vendor="mikroe" versionSchema="1.0.0">
+    <images>
+        <file path="HEART_RATE_4_CLICK.png"></file>
+    </images>
+    <display_title>
+        Can be used for wearable devices, fitness assistant devices, biomedical devices, etc.
+    </display_title>
+    <overview>
+        <![CDATA[<strong>Heart rate 4 click</strong>&nbsp;carries the&nbsp;<a href="https://download.mikroe.com/documents/datasheets/max30101.pdf">MAX30101</a>&nbsp;high-sensitivity pulse oximeter and heart-rate sensor from&nbsp;<a href="https://www.mikroe.com/partners/analog-devices">Analog Devices</a>.<br>]]>
+    </overview>
+    <category name="biometrics">
+        <category name="heart_rate"></category>
+        <category name="pulse_oximeter"></category>
+    </category>
+    <category name="interface">
+        <category name="i2c"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/heart-rate-4-click"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=HEART%20RATE%204%20CLICK"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

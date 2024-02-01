@@ -1,0 +1,25 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_accel_4_click" name="ACCEL 4 CLICK" type="mikrobus" vendor="mikroe" versionSchema="1.0.0">
+    <images>
+        <file path="mikroe_Accel_4_Click.png"></file>
+    </images>
+    <display_title>
+        Can be used for a wide range of automotive (convenience and security), industrial, and medical IoT applications
+    </display_title>
+    <overview>
+        <![CDATA[Accel 4 Click is a compact add-on board that contains an acceleration sensor. This board features the FXLS8974CF, a 12-bit three-axis accelerometer from NXP Semiconductors. It allows selectable full-scale acceleration measurements in ranges of ±2g, ±4g, ±8g, or ±16g in three axes with a configurable host interface that supports both SPI and I2C serial communication. The FXLS8974CF supports both high-performance and low-power operating modes, allowing maximum flexibility to meet the resolution and power needs for various unique use cases. This Click board™ is suitable for a wide range of automotive (convenience and security), industrial, and medical IoT applications that require ultra-low-power Wake-Up on the motion.<br>]]>
+    </overview>
+    <category name="interface">
+        <category name="i2c"></category>
+        <category name="spi"></category>
+    </category>
+    <category name="sensors">
+        <category name="accelerometer"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/accel-4-click"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=ACCEL-4-CLICK"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

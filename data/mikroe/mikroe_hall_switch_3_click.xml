@@ -1,0 +1,24 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_hall_switch_3_click" name="HALL SWITCH 3 CLICK" type="mikrobus" vendor="mikroe" versionSchema="1.0.0">
+    <images>
+        <file path="HALL_SWITCH_3_CLICK.png"></file>
+    </images>
+    <display_title>
+        Can be used for the development of electronic system wake-up, home automation systems, contactless switches, and more.
+    </display_title>
+    <overview>
+        <![CDATA[<strong>Hall Switch 3 Click</strong>&nbsp;is a compact add-on board representing a magnetic field-activated switch. This board features the&nbsp;<a href="https://download.mikroe.com/documents/datasheets/NMH1000_datasheet.pdf">NMH1000</a>, a Hall-effect magnetic switch from&nbsp;<a href="https://www.mikroe.com/partners/nxp">NXP Semiconductor</a>. It is a low-voltage, low-current, and low-output data rate device with a very small size. The switch is most sensitive to a vertical field passing through the top-bottom surfaces, orthogonal to the plane of the Hall Switch 3 Click board™.&nbsp;]]>
+    </overview>
+    <category name="interface">
+        <category name="i2c"></category>
+    </category>
+    <category name="sensors">
+        <category name="magnetic"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/hall-switch-3-click"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=HALL%20SWITCH%203%20CLICK"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

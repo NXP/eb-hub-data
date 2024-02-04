@@ -1054,6 +1054,11 @@
           <documentation>Development Board for MC56F81xxx Secure Digital Signal Controllers</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="FRDM-RW612">
+        <annotation>
+          <documentation>FRDM-RW612</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

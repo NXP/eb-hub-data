@@ -1,21 +1,27 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_aud_exp_42448" name="AUD-EXP-42448" type="other" vendor="nxp">
-  <images>
-    <file path="nxp_AUD_EXP_42448.png"/>
-  </images>
-  <display_title>Multichannel Audio Codec Card for EVKs</display_title>
-  <overview>AUD-EXP-42448 is a multichannel audio codec card for EVKs. This audio card is based on Cirrus Logic CS42448 CODEC and includes six audio inputs and eight audio outputs. AUD-EXP-42448 is intended to demonstrate system and software capabilities and not to act as an audio reference design.</overview>
-  <category name="interface">
-    <category name="audio_interface"/>
-  </category>
-  <category name="audio">
-    <category name="audio_codec"/>
-    <category name="microphone"/>
-  </category>
-  <links>
-    <link type="product" href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/multichannel-audio-codec-card-for-evks:AUD-EXP-42448"/>
-    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/f125c4e9ca59"/>
-  </links>
-  <nxp_compatible_hw>
-    <hw id="MIMXRT1060-EVKB"/>
-  </nxp_compatible_hw>
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_aud_exp_42448" name="AUD-EXP-42448" type="other" vendor="nxp" versionSchema="1.0.0">
+    <images>
+        <file path="nxp_AUD_EXP_42448.png"></file>
+    </images>
+    <display_title>
+        Multichannel Audio Codec Card for EVKs
+    </display_title>
+    <overview>
+        <![CDATA[AUD-EXP-42448 is a multichannel audio codec card for EVKs. This audio card is based on Cirrus Logic CS42448 CODEC and includes six audio inputs and eight audio outputs. AUD-EXP-42448 is intended to demonstrate system and software capabilities and not to act as an audio reference design.]]>
+    </overview>
+    <category name="interface">
+        <category name="audio_interface"></category>
+    </category>
+    <category name="audio">
+        <category name="audio_codec"></category>
+        <category name="microphone"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/multichannel-audio-codec-card-for-evks:AUD-EXP-42448"/>
+        <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/f125c4e9ca59"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=AUD-EXP-42448"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="MIMXRT1060-EVKB"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
 </data:item>

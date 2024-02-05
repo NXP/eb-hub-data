@@ -1,12 +1,12 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_lcd_par_s035" name="LCD-PAR-S035" type="pmod" vendor="nxp">
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_lcd_par_s035" name="LCD-PAR-S035" type="pmod" vendor="nxp" versionSchema="1.0.0">
     <images>
-        <file path="LCD-PAR-S035-TOP.png"></file>
+        <file path="LCD_PAR_S035_TOP.png"></file>
     </images>
     <display_title>
         3.5” 480x320 IPS TFT LCD Module
     </display_title>
     <overview>
-        <![CDATA[The PAR-LCD-S035 is a 3.5” 480x320 IPS TFT LCD module with wide viewing angle and 5-point capacitive touch functionality. The LCD module can be controlled through either SPI or parallel (8/16bit) 8080/6800 and is compatible with existing evaluation kits with a PMOD connector as well as selected FRDM-X evaluation kits with a parallel LCD connector.<br />]]>
+        <![CDATA[The PAR-LCD-S035 is a 3.5” 480x320 IPS TFT LCD module with wide viewing angle and 5-point capacitive touch functionality. The LCD module can be controlled through either SPI or parallel (8/16bit) 8080/6800 and is compatible with existing evaluation kits with a PMOD connector as well as selected FRDM-X evaluation kits with a parallel LCD connector.<br>]]>
     </overview>
     <category name="display">
         <category name="graphical_display"></category>
@@ -23,9 +23,12 @@
     </category>
     <links>
         <link type="product" href="https://www.nxp.com/design/design-center/development-boards/general-purpose-mcus/3-5-480x320-ips-tft-lcd-module:LCD-PAR-S035"/>
-		<link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=LCD-PAR-S035"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=LCD-PAR-S035"/>
+        <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/a00ba4967196"/>
     </links>
     <nxp_compatible_hw>
         <hw id="FRDM-MCXN947"></hw>
+        <hw id="MCX-N5XX-EVK"></hw>
+        <hw id="MCX-N9XX-EVK"></hw>
     </nxp_compatible_hw>
 </data:item>

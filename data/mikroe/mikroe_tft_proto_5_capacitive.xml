@@ -20,9 +20,11 @@
     <links>
         <link type="product" href="https://www.mikroe.com/tft-proto-5-capacitive-board"/>
         <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=TFT%20PROTO%205%20Capacitive"/>
+		<link type="sdk" href="https://mcuxpresso.nxp.com/criteria/53470d805860"/>
     </links>
     <nxp_compatible_hw>
-        <hw id="MCX-N9XX-EVK"></hw>
         <hw id="FRDM-MCXN947"></hw>
+        <hw id="MCX-N5XX-EVK"></hw>
+        <hw id="MCX-N9XX-EVK"></hw>
     </nxp_compatible_hw>
 </data:item>

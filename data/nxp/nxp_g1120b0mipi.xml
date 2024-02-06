@@ -1,21 +1,26 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_g1120b0mipi" name="G1120B0MIPI" type="other" vendor="nxp">
-  <images>
-    <file path="nxp_G1120B0MIPI.png"/>
-  </images>
-  <display_title>1.2" Wearable Display G1120B0MIPI</display_title>
-  <overview>The G1120B0MIPI is a 1.2 inch circular AMOLED display, 390x390 pixels, with a 1-lane MIPI interface. This display connects to the i.MX RT595 Evaluation Kit and is fully supported in our SDK.</overview>
-  <category name="display">
-    <category name="graphical_display"/>
-    <category name="lcd_display"/>
-  </category>
-  <category name="interface">
-    <category name="display_interface"/>
-  </category>
-  <links>
-    <link type="product" href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/1-2-wearable-display-g1120b0mipi:G1120B0MIPI"/>
-    <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/a00ba4967196"/>
-  </links>
-  <nxp_compatible_hw>
-    <hw id="EVK-MIMXRT595"/>
-  </nxp_compatible_hw>
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_g1120b0mipi" name="G1120B0MIPI" type="other" vendor="nxp" versionSchema="1.0.0">
+    <images>
+        <file path="nxp_G1120B0MIPI.png"></file>
+    </images>
+    <display_title>
+        1.2&quot; Wearable Display G1120B0MIPI
+    </display_title>
+    <overview>
+        <![CDATA[The G1120B0MIPI is a 1.2 inch circular AMOLED display, 390x390 pixels, with a 1-lane MIPI interface. This display connects to the i.MX RT595 Evaluation Kit and is fully supported in our SDK.]]>
+    </overview>
+    <category name="display">
+        <category name="graphical_display"></category>
+        <category name="lcd_display"></category>
+    </category>
+    <category name="interface">
+        <category name="display_interface"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/1-2-wearable-display-g1120b0mipi:G1120B0MIPI"/>
+        <link type="sdk" href="https://mcuxpresso.nxp.com/criteria/a00ba4967196"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=G1120B0MIPI"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="EVK-MIMXRT595"></hw>
+    </nxp_compatible_hw>
 </data:item>

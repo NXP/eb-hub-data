@@ -1059,6 +1059,10 @@
           <documentation>FRDM-RW612</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="I-MX-RT-INDUSTRIAL-DRIVE-DEV-PLA">
+      </enumeration>
+      <enumeration value="IOTZTB-DK006">
+      </enumeration>
     </restriction>
   </simpleType>
 

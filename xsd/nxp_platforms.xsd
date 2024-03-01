@@ -1063,6 +1063,11 @@
       </enumeration>
       <enumeration value="IOTZTB-DK006">
       </enumeration>
+      <enumeration value="IMX95LP4XEVK-15">
+        <annotation>
+          <documentation>i.MX95LP4X Evaluation Kit 15x15</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

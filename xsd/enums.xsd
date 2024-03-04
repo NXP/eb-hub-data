@@ -115,7 +115,7 @@
       </enumeration>
       <enumeration value="frdm_header">
         <annotation>
-          <documentation> Freedom Header (Arduino compatible) </documentation>
+          <documentation> FRDM Header (Arduino compatible) </documentation>
         </annotation>
       </enumeration>
       <enumeration value="lpcxpresso_v3_header">

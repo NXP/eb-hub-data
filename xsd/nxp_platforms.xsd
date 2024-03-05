@@ -1068,6 +1068,11 @@
           <documentation>i.MX95LP4X Evaluation Kit 15x15</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="imx95verdinevk">
+        <annotation>
+          <documentation>i.MX95 Verdin Evaluation Kit</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

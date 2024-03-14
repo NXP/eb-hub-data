@@ -1073,6 +1073,11 @@
           <documentation>i.MX95 Verdin Evaluation Kit</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="FRDM-MCXC444">
+        <annotation>
+          <documentation>FRDM-MCXC444</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

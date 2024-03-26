@@ -1084,6 +1084,9 @@
         </annotation>
       </enumeration>
       <enumeration value="FRDM-MCXC041">
+        <annotation>
+          <documentation>FRDM-MCXC041</documentation>
+        </annotation>
       </enumeration>
     </restriction>
   </simpleType>

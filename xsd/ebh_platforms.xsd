@@ -1083,6 +1083,8 @@
           <documentation>MCXW7X Evaluation Kit</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="FRDM-MCXC041">
+      </enumeration>
     </restriction>
   </simpleType>
 

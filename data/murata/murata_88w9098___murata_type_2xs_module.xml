@@ -1,0 +1,41 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="murata_88w9098___murata_type_2xs_module" name="88W9098 - muRata Type-2XS Module" type="m2" vendor="murata" versionSchema="1.0.0">
+    <images>
+        <file path="type_2xs.png"></file>
+    </images>
+    <display_title>
+        2.4/5 GHz Dual-Band 2x2 Wi-Fi® 6 (802.11ax) + Bluetooth® 5.3
+    </display_title>
+    <overview>
+        <![CDATA[The muRata The MuRata Type-2XS m.2 card features the NXP 88W9098 Wi-Fi 6 SoC, and offers two dual-band MACs, and Bluetooth 5.3. The Type-2XS uses a shared antenna for Bluetooth and Wi-Fi connectivity.]]>
+    </overview>
+    <category name="wireless">
+        <category name="bluetooth"></category>
+        <category name="wi_fi"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.embeddedartists.com/products/2xs-m-2-module/"/>
+        <link type="repository" href="https://github.com/nxp-imx/mwifiex"/>
+        <link type="example" href="https://www.nxp.com/design/design-center/software/embedded-software/i-mx-software/embedded-linux-for-i-mx-applications-processors:IMXLINUX?tid=redLEIMX&amp;amp;tid=vanIMXLINUX"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="EVK-MCIMX6SLL"></hw>
+        <hw id="EVK-MCIMX6UL"></hw>
+        <hw id="EVK-MCIMX6ULL"></hw>
+        <hw id="EVK-MCIMX6ULZ"></hw>
+        <hw id="EVK-MCIMX7ULP"></hw>
+        <hw id="EVK-MIMX8DXL"></hw>
+        <hw id="EVK-MIMX8ML"></hw>
+        <hw id="EVK-MIMX8MM"></hw>
+        <hw id="EVK-MIMX8MN"></hw>
+        <hw id="EVK-MIMX8MNDDR3L"></hw>
+        <hw id="EVK-MIMX8MP"></hw>
+        <hw id="EVK-MIMX8MQ"></hw>
+        <hw id="EVK-MIMX8ULP"></hw>
+        <hw id="EVKB-MCIMX7ULP"></hw>
+        <hw id="IMX943-EVK"></hw>
+        <hw id="IMX95LPD5EVK-19"></hw>
+        <hw id="MCIMX93-EVK"></hw>
+        <hw id="MCIMX93-QSB"></hw>
+        <hw id="MCIMX93AUTO-EVK"></hw>
+    </nxp_compatible_hw>
+</data:item>

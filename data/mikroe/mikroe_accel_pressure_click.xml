@@ -1,0 +1,22 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_accel_pressure_click" name="ACCEL PRESSURE CLICK" type="mikrobus" vendor="mikroe" versionSchema="1.0.0">
+    <images>
+        <file path="accel_pressure_click.png"></file>
+    </images>
+    <display_title>
+        Accel&amp;Pressure Click is a compact add-on board representing a rate-of-climb sensing solution for your application.
+    </display_title>
+    <overview>
+        <![CDATA[This board features the&nbsp;<a href="https://download.mikroe.com/documents/datasheets/FXLS8974CF_datasheet.pdf">FXLS8974CF</a>, a 3-axis low-g accelerometer, and the&nbsp;<a href="https://download.mikroe.com/documents/datasheets/MPL3115A2_datasheet.pdf">MPL3115A2</a>, a precision pressure sensor with altimetry, both from&nbsp;<a href="https://www.mikroe.com/partners/nxp">NXP Semiconductor</a>. Those two sensors are high-performance, low-power devices covering all of Earth's surface elevations. By combining the acceleration and the barometric pressure data, you can easily determine the vertical velocity (the rate of climb) of the device on which the Accel&amp;Pressure Click is integrated. This Click board™ makes the perfect solution for the development of vertical velocity applications and similar devices.<br>]]>
+    </overview>
+    <category name="sensors">
+        <category name="accelerometer"></category>
+        <category name="pressure"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/accelpressure-click"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=ACCEL%20PRESSURE%20CLICK%20MIKROE"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

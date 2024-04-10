@@ -1093,6 +1093,11 @@
           <documentation>FRDM-MCXC242</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="FRDM-MCXA276">
+        <annotation>
+          <documentation>FRDM-MCXA276</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

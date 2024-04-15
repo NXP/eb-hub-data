@@ -1,0 +1,26 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_pcf2131_ard" name="PCF2131-ARD" type="arduino_header" vendor="nxp" versionSchema="1.0.0">
+    <images>
+        <file path="PCF2131ARD.png"></file>
+    </images>
+    <display_title>
+        Real-Time Clock Module
+    </display_title>
+    <overview>
+        <![CDATA[The
+  PCF2131/PCA2131 is a CMOS real time clock (RTC) module and calendar with an
+  integrated temperature compensated crystal (Xtal) oscillator (TCXO) and a
+  32.768 kHz quartz crystal optimized for very high accuracy and ultra low
+  power consumption.]]>
+    </overview>
+    <category name="analog_front_end">
+        <category name="real_time_clock"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/design/design-center/development-boards/analog-toolbox/arduino-shields-solutions/pcf2131-pca2131-arduino-shield-evaluation-board:PCF2131-ARD"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=PCF2131-ARD"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

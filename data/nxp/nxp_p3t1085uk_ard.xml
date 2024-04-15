@@ -1,0 +1,22 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_p3t1085uk_ard" name="P3T1085UK-ARD" type="arduino_header" vendor="nxp" versionSchema="1.0.0">
+    <images>
+        <file path="P3T1085UKARD.png"></file>
+    </images>
+    <display_title>
+        I3C/I²C Digital Temp. Sensors
+    </display_title>
+    <overview>
+        <![CDATA[The P3T1085UK-ARD evaluation board is designed for the P3T1085UK, an I3C, I2C-bus, 0.5 °C accuracy, digital temperature sensor.]]>
+    </overview>
+    <category name="sensors">
+        <category name="temperature"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/design/design-center/development-boards/analog-toolbox/arduino-shields-solutions/p3t1085uk-arduino-shield-evaluation-board:P3T1085UK-ARD"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=P3T1085UK-ARD"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

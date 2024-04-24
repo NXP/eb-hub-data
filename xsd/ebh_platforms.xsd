@@ -1098,6 +1098,8 @@
           <documentation>FRDM-MCXA276</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="FRDM-RW612">
+      </enumeration>
     </restriction>
   </simpleType>
 

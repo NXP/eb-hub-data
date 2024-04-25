@@ -1100,6 +1100,11 @@
       </enumeration>
       <enumeration value="FRDM-RW612">
       </enumeration>
+      <enumeration value="ISI-QMC-DGC-03">
+        <annotation>
+          <documentation>i.MX RT Industrial Drive Daughter Card 3rd Generation (ISI-QMC-DGC-03)</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

@@ -1102,7 +1102,7 @@
       </enumeration>
       <enumeration value="ISI-QMC-DGC-03">
         <annotation>
-          <documentation>i.MX RT Industrial Drive Daughter Card 3rd Generation (ISI-QMC-DGC-03)</documentation>
+          <documentation>i.MX RT1180 Industrial Drive Daughter Card (ISI-QMC-DGC-03)</documentation>
         </annotation>
       </enumeration>
     </restriction>

@@ -1105,6 +1105,11 @@
           <documentation>i.MX RT1180 Industrial Drive Daughter Card (ISI-QMC-DGC-03)</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="FRDM-MCXW71">
+        <annotation>
+          <documentation>MCX W71 Development Board</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

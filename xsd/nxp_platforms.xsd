@@ -1080,7 +1080,7 @@
       </enumeration>
       <enumeration value="FRDM-MCXW7X">
         <annotation>
-          <documentation>MCXW7X Evaluation Kit</documentation>
+          <documentation>MCX W71 Development Board</documentation>
         </annotation>
       </enumeration>
       <enumeration value="FRDM-MCXC041">

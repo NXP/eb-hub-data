@@ -308,6 +308,11 @@
           <documentation> Other Interface ( Applies for "interface" only ) </documentation>
         </annotation>
       </enumeration>
+      <enumeration value="lin">
+        <annotation>
+          <documentation> LIN ( Applies for "interface" only ) </documentation>
+        </annotation>
+      </enumeration>
 
       <!-- User Interface -->
       <enumeration value="buttons_switches">

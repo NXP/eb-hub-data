@@ -1115,6 +1115,11 @@
           <documentation>MCX-W72 Evaluation Kit for Bluetooth Low Energy</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="MCX-W71-EVK">
+        <annotation>
+          <documentation>MCX-W71 Evaluation Kit for Bluetooth Low Energy</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

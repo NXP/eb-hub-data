@@ -1,0 +1,62 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="azurewave_iw416___azurewave_aw_am510_usd_module" name="IW416 - AzureWave AW-AM510-uSD Module" type="sdio" vendor="azurewave" versionSchema="1.0.0">
+    <images>
+        <file path="aw_am510_usd.png"></file>
+    </images>
+    <display_title>
+        2.4/5 GHz Dual-Band 1x1 Wi-Fi 4 (802.11n) + Bluetooth 5.2 Solution
+    </display_title>
+    <overview>
+        <![CDATA[The AzureWave AW-AM510-uSD micro-SD eval board features the NXP IW416 Wi-Fi SoC, and offers dual-band Wi-Fi 4, and Bluetooth 5.2, networking.]]>
+    </overview>
+    <category name="wireless">
+        <category name="bluetooth"></category>
+        <category name="wi_fi"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.azurewave.com/img/nxp/AW-AM510-uSD_User%20guide_A_210126.pdf"/>
+        <link type="example" href="https://www.nxp.com/design/design-center/software/embedded-software/i-mx-software/embedded-linux-for-i-mx-applications-processors:IMXLINUX?tid=redLEIMX&amp;amp;amp;tid=vanIMXLINUX"/>
+        <link type="repository" href="https://github.com/nxp-mcuxpresso/mcux-sdk"/>
+        <link type="pack" href="https://www.keil.arm.com/packs/wifi-nxp/versions/"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="EVK-MIMXRT1020"></hw>
+        <hw id="EVK-MIMXRT1050"></hw>
+        <hw id="EVK-MIMXRT1064"></hw>
+        <hw id="EVK-MIMXRT1060"></hw>
+        <hw id="EVK-MIMXRT595"></hw>
+        <hw id="EVK-MIMXRT685"></hw>
+        <hw id="EVKB-IMXRT1050"></hw>
+        <hw id="MIMXRT1040-EVK"></hw>
+        <hw id="MIMXRT1060-EVKB"></hw>
+        <hw id="MIMXRT1060-EVKC"></hw>
+        <hw id="MIMXRT1160-EVK"></hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1170-EVKB"></hw>
+        <hw id="MIMXRT1180-EVB"></hw>
+        <hw id="MIMXRT1180-EVK"></hw>
+        <hw id="MIMXRT1180A-EVK"></hw>
+        <hw id="MIMXRT685-AUD-EVK"></hw>
+        <hw id="MIMXRT700-EVK"></hw>
+        <hw id="MCX-N5XX-EVK"></hw>
+        <hw id="MCX-N9XX-EVK"></hw>
+        <hw id="EVK-MCIMX6UL"></hw>
+        <hw id="EVK-MCIMX6ULL"></hw>
+        <hw id="EVK-MCIMX6ULZ"></hw>
+        <hw id="EVK-MCIMX7ULP"></hw>
+        <hw id="EVK-MIMX8DXL"></hw>
+        <hw id="EVK-MIMX8ML"></hw>
+        <hw id="EVK-MIMX8MM"></hw>
+        <hw id="EVK-MIMX8MN"></hw>
+        <hw id="EVK-MIMX8MNDDR3L"></hw>
+        <hw id="EVK-MIMX8MP"></hw>
+        <hw id="EVK-MIMX8MQ"></hw>
+        <hw id="EVK-MIMX8ULP"></hw>
+        <hw id="EVKB-MCIMX7ULP"></hw>
+        <hw id="IMX943-EVK"></hw>
+        <hw id="IMX95LPD5EVK-19"></hw>
+        <hw id="MCIMX93-EVK"></hw>
+        <hw id="MCIMX93-QSB"></hw>
+        <hw id="MCIMX93AUTO-EVK"></hw>
+        <hw id="EVK-MCIMX6SLL"></hw>
+    </nxp_compatible_hw>
+</data:item>

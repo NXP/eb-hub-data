@@ -1,0 +1,62 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="h_d_wireless_IW612___hd_spb438_module" name="IW612 - HD SPB438 module" type="m2" vendor="h_d_wireless" versionSchema="1.0.0">
+    <images>
+        <file path="SPB438.png"></file>
+    </images>
+    <display_title>
+        2.4/5 GHz Dual-Band 1x1 Wi-Fi® 6 (802.11ax) + Bluetooth® 5.4 + 802.15.4 Tri-Radio Solution
+    </display_title>
+    <overview>
+        <![CDATA[The H&amp;D SPB438 m.2 card features the NXP IW612 Wi-Fi SoC, and offers dual-band Wi-Fi 6, Bluetooth 5.4, and 802.15.4 networking. The SPB438 module uses a shared antenna for Bluetooth, 802.15.4, and Wi-Fi connectivity.]]>
+    </overview>
+    <category name="wireless">
+        <category name="bluetooth"></category>
+        <category name="wi_fi"></category>
+        <category name="zigbee"></category>
+    </category>
+    <links>
+        <link type="repository" href="https://github.com/nxp-mcuxpresso/mcux-sdk"/>
+        <link type="pack" href="https://www.keil.arm.com/packs/wifi-nxp/versions/"/>
+        <link type="product" href="https://support.hd-wireless.com/Support/SPB437"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="EVK-MIMXRT1020"></hw>
+        <hw id="EVK-MIMXRT1050"></hw>
+        <hw id="EVK-MIMXRT1060"></hw>
+        <hw id="EVK-MIMXRT1064"></hw>
+        <hw id="EVK-MIMXRT595"></hw>
+        <hw id="EVK-MIMXRT685"></hw>
+        <hw id="EVKB-IMXRT1050"></hw>
+        <hw id="MIMXRT1040-EVK"></hw>
+        <hw id="MIMXRT1060-EVKB"></hw>
+        <hw id="MIMXRT1060-EVKC"></hw>
+        <hw id="MIMXRT1160-EVK"></hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1170-EVKB"></hw>
+        <hw id="MIMXRT1180-EVB"></hw>
+        <hw id="MIMXRT1180-EVK"></hw>
+        <hw id="MIMXRT1180A-EVK"></hw>
+        <hw id="MIMXRT685-AUD-EVK"></hw>
+        <hw id="MIMXRT700-EVK"></hw>
+        <hw id="MCX-N5XX-EVK"></hw>
+        <hw id="MCX-N9XX-EVK"></hw>
+        <hw id="EVK-MCIMX6SLL"></hw>
+        <hw id="EVK-MCIMX6UL"></hw>
+        <hw id="EVK-MCIMX6ULL"></hw>
+        <hw id="EVK-MCIMX6ULZ"></hw>
+        <hw id="EVK-MCIMX7ULP"></hw>
+        <hw id="EVK-MIMX8DXL"></hw>
+        <hw id="EVK-MIMX8ML"></hw>
+        <hw id="EVK-MIMX8MM"></hw>
+        <hw id="EVK-MIMX8MN"></hw>
+        <hw id="EVK-MIMX8MNDDR3L"></hw>
+        <hw id="EVK-MIMX8MP"></hw>
+        <hw id="EVK-MIMX8MQ"></hw>
+        <hw id="EVK-MIMX8ULP"></hw>
+        <hw id="EVKB-MCIMX7ULP"></hw>
+        <hw id="IMX943-EVK"></hw>
+        <hw id="IMX95LPD5EVK-19"></hw>
+        <hw id="MCIMX93-EVK"></hw>
+        <hw id="MCIMX93-QSB"></hw>
+        <hw id="MCIMX93AUTO-EVK"></hw>
+    </nxp_compatible_hw>
+</data:item>

@@ -1,0 +1,26 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_pca9957hn_ard" name="PCA9957HN-ARD" type="arduino_header" vendor="nxp" versionSchema="1.0.0">
+    <images>
+        <file path="PCA9957HNARD.png"></file>
+    </images>
+    <display_title>
+        LED Drivers
+    </display_title>
+    <overview>
+        <![CDATA[The
+  PCA9957HN-ARD Arduino Shield allows easy integration with Arduino EVKs to
+  evaluate the LED controller features for color mixing, blinking and dimming
+  LEDs. A graphical interface allows the user to easily explore the different
+  functions of the driver to create an evaluation system.]]>
+    </overview>
+    <category name="interface">
+        <category name="led_driver"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/design/design-center/development-boards/analog-toolbox/arduino-shields-solutions/pca9957hn-ard-led-driver-arduino-shield-evaluation-board:PCA9957HN-ARD"/>
+        <link type="example" href="https://mcuxpresso.nxp.com/appcodehub?search=PCA9957HN-ARD"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

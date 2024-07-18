@@ -11,7 +11,7 @@
   xmlns:enums="enums"
   xmlns:platforms="platforms"
   targetNamespace="data"
-  version="1.0.0">
+  version="1.1.0">
 
 
   <import schemaLocation="enums.xsd" namespace="enums"/>
@@ -117,6 +117,31 @@
     </annotation>
     <complexType>
       <sequence>
+        <element name="connectors" minOccurs="0" maxOccurs="1">
+          <annotation>
+            <documentation>Connector Types.</documentation>
+          </annotation>
+          <complexType>
+            <sequence>
+              <element name="connector"  minOccurs="1" maxOccurs="unbounded">
+                <annotation>
+                  <documentation>Connector Type.</documentation>
+                </annotation>
+                <complexType>
+                  <attribute name="type" use="required" type="enums:ConnectorType">
+                    <annotation>
+                      <documentation>Connector Type.</documentation>
+                    </annotation>
+                  </attribute>
+                </complexType>
+              </element>
+            </sequence>
+          </complexType>
+          <unique name="UniqueConnectorType">
+            <selector xpath="connector" />
+            <field xpath="@type" />
+          </unique>
+        </element>
         <element name="images" minOccurs="1" maxOccurs="1">
           <annotation>
             <documentation>Board image</documentation>
@@ -185,7 +210,7 @@
             </attribute>
           </complexType>
         </element>
-        <element name="links" minOccurs="1" maxOccurs="unbounded">
+        <element name="links" minOccurs="1" maxOccurs="1">
           <annotation>
             <documentation>Links to external resources.</documentation>
           </annotation>
@@ -252,7 +277,7 @@
         </element>
       </sequence>
 
-      <attribute name="versionSchema" use="optional" default="1.0.0">
+      <attribute name="versionSchema" use="optional" default="1.1.0">
         <annotation>
           <documentation>Version number x.x.x of XSD schema</documentation>
         </annotation>
@@ -273,9 +298,9 @@
           </restriction>
         </simpleType>
       </attribute>
-      <attribute name="type" use="required" type="enums:ConnectorType">
+      <attribute name="type" use="optional" type="enums:ConnectorType">
         <annotation>
-          <documentation>Type of the board.</documentation>
+          <documentation>Connector Type.</documentation>
         </annotation>
       </attribute>
       <attribute name="vendor" use="required" type="enums:Vendors"/>

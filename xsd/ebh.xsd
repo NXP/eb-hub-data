@@ -117,31 +117,6 @@
     </annotation>
     <complexType>
       <sequence>
-        <element name="connectors" minOccurs="0" maxOccurs="1">
-          <annotation>
-            <documentation>Connector Types.</documentation>
-          </annotation>
-          <complexType>
-            <sequence>
-              <element name="connector"  minOccurs="1" maxOccurs="unbounded">
-                <annotation>
-                  <documentation>Connector Type.</documentation>
-                </annotation>
-                <complexType>
-                  <attribute name="type" use="required" type="enums:ConnectorType">
-                    <annotation>
-                      <documentation>Connector Type.</documentation>
-                    </annotation>
-                  </attribute>
-                </complexType>
-              </element>
-            </sequence>
-          </complexType>
-          <unique name="UniqueConnectorType">
-            <selector xpath="connector" />
-            <field xpath="@type" />
-          </unique>
-        </element>
         <element name="images" minOccurs="1" maxOccurs="1">
           <annotation>
             <documentation>Board image</documentation>
@@ -183,6 +158,31 @@
           <annotation>
             <documentation>Long description of the board. May contain basic formatting html tag</documentation>
           </annotation>
+        </element>
+        <element name="connectors" minOccurs="0" maxOccurs="1">
+          <annotation>
+            <documentation>Connector Types.</documentation>
+          </annotation>
+          <complexType>
+            <sequence>
+              <element name="connector"  minOccurs="1" maxOccurs="unbounded">
+                <annotation>
+                  <documentation>Connector Type.</documentation>
+                </annotation>
+                <complexType>
+                  <attribute name="type" use="required" type="enums:ConnectorType">
+                    <annotation>
+                      <documentation>Connector Type.</documentation>
+                    </annotation>
+                  </attribute>
+                </complexType>
+              </element>
+            </sequence>
+          </complexType>
+          <unique name="UniqueConnectorType">
+            <selector xpath="connector" />
+            <field xpath="@type" />
+          </unique>
         </element>
         <element name="category" minOccurs="1" maxOccurs="unbounded">
           <annotation>

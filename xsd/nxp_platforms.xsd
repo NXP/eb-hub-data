@@ -1012,7 +1012,7 @@
       </enumeration>
       <enumeration value="KW47-EVK">
         <annotation>
-          <documentation>KW47 FPGA platform</documentation>
+          <documentation>KW47 Evaluation Kit for Bluetooth Low Energy</documentation>
         </annotation>
       </enumeration>
       <enumeration value="IMX95LPD5EVK-19">

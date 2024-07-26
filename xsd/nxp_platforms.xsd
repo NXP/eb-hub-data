@@ -1120,6 +1120,11 @@
           <documentation>MCX-W71 Evaluation Kit for Bluetooth Low Energy</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="FPGA_MCXL20">
+        <annotation>
+          <documentation>MCXL20 HAPS test</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

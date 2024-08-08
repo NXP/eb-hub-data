@@ -1125,6 +1125,21 @@
           <documentation>MCXL20 HAPS test</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="KW47-LOC">
+        <annotation>
+          <documentation>KW47 Localization and Low Power Reference Design</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FRDM-MCXW72">
+        <annotation>
+          <documentation>Freedom Development Platform for MCXW72 MCU</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MCX-W72-LOC">
+        <annotation>
+          <documentation>MCXW72 Localization and Low Power Reference Design</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

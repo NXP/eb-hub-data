@@ -1,0 +1,28 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_inclinometer_4_click" name="INCLINOMETER 4 CLICK" vendor="mikroe" versionSchema="1.0.0">
+    <images>
+        <file path="INCLINOMETER_4_CLICK.png"></file>
+    </images>
+    <display_title>
+        Inclinometer 4 Click is a compact add-on board designed to measure angles of slope or elevation of an object concerning gravity&#x27;s direction.
+    </display_title>
+    <overview>
+        <![CDATA[This board features the&nbsp;<a href="https://download.mikroe.com/documents/datasheets/FXLS8971CF_datasheet.pdf">FXLS8971CF</a>, a 3-axis low-g MEMS accelerometer from&nbsp;<a href="https://www.mikroe.com/partners/nxp">NXP Semiconductor</a>. The FXLS8971CF offers high-performance and low-power modes, with selectable full-scale ranges of ±2/4/8/16g and features such as selectable output data rates, motion detection, and a 144-byte output data buffer. This Click board™ supports both I2C and SPI interfaces with a unique "Click Snap" feature for flexible implementation. It is ideal for industrial and medical IoT applications, including asset tracking, equipment monitoring, smart metering, and orientation detection.<br>]]>
+    </overview>
+    <connectors>
+        <connector type="mikrobus"></connector>
+    </connectors>
+    <category name="interface">
+        <category name="i2c"></category>
+        <category name="spi"></category>
+    </category>
+    <category name="sensors">
+        <category name="accelerometer"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/inclinometer-4-click"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

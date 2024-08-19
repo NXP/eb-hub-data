@@ -1,0 +1,28 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_frdm_stbi_a8971" name="FRDM-STBI-A8971" vendor="nxp" versionSchema="1.0.0">
+    <images>
+        <file path="FRDM_STBI_A8971.png"></file>
+    </images>
+    <display_title>
+        Sensor shield board for FXLS8971CF 3-axis accelerometer for Industrial, Medical applications requiring excellent performance over temperature.
+    </display_title>
+    <overview>
+        <![CDATA[Sensor toolbox development board for FXLS8971CF with enablement software tools.Sensor Boards:<ul><li>Sensor shield board: FRDM-STBI-A8971 is a sensor add-on/companion shield board for FXLS8971CF 3-axis accelerometer for precision inclinometer IoT applications</li></ul>Embedded Software Framework:<ul><li>IoT Sensing SDK: Provides Embedded sensor projects for the demo through MCUXpresso</li><li>Sensors SW Component Library: Provides platform agnostic software source files, modules, and libraries for sensor drivers</li></ul>Evaluation and Visualization Software:<ul><li>FreeMASTER Sensor Tool: Provides out-of-box sensor demo and application development platform for FXLS8971CF</li></ul><a></a>]]>
+    </overview>
+    <connectors>
+        <connector type="arduino_header"></connector>
+    </connectors>
+    <category name="interface">
+        <category name="i2c"></category>
+        <category name="spi"></category>
+    </category>
+    <category name="sensors">
+        <category name="accelerometer"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/design/design-center/software/sensor-toolbox/evaluation-boards/sensor-toolbox-development-board-for-fxls8971cf-3-axis-iot-accelerometer:KIT-STBI-A8971"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

@@ -760,7 +760,7 @@
       </enumeration>
       <enumeration value="KW45B41Z-LOC">
         <annotation>
-          <documentation>K32WB41Z Localization and Low Power Reference Design</documentation>
+          <documentation>KW45B41Z Localization and Low Power Reference Design</documentation>
         </annotation>
       </enumeration>
       <enumeration value="LPCXpresso55S36">

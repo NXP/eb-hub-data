@@ -1140,6 +1140,11 @@
           <documentation>MCXW72 Localization and Low Power Reference Design</documentation>
         </annotation>
       </enumeration>
+      <enumeration value="FRDM-MCXA166">
+        <annotation>
+          <documentation>FRDM-MCXA166</documentation>
+        </annotation>
+      </enumeration>
     </restriction>
   </simpleType>
 

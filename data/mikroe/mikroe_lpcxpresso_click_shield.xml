@@ -1,0 +1,29 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_lpcxpresso_click_shield" name="LPCXPRESSO CLICK SHIELD" vendor="mikroe" versionSchema="1.1.0">
+    <images>
+        <file path="LPCXPRESSO_CLICK_SHIELD.png"></file>
+    </images>
+    <display_title>
+        Expand the functionalities of your LPCXpresso development boards with Arduino socket to 2 mikroBUS™ sockets
+    </display_title>
+    <overview>
+        <![CDATA[LPCXpresso Click Shield designed to support multiple NXP development platforms which use Arduino connector and equip them with two mikroBUS sockets. Start your development with ease on LPCXpresso platform and get immediate access to hundreds of Click boards in our offer.<br>]]>
+    </overview>
+    <connectors>
+        <connector type="lpcxpresso_v3_header"></connector>
+    </connectors>
+    <category name="interface">
+        <category name="adapter"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/lpcxpresso-click-shield"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="LPCXpresso55S06"></hw>
+        <hw id="LPCXpresso55S16"></hw>
+        <hw id="LPCXpresso55S28"></hw>
+        <hw id="LPCXpresso55S69"></hw>
+        <hw id="LPCXpresso55S36"></hw>
+        <hw id="LPCXpresso54114"></hw>
+        <hw id="LPCXpresso54102"></hw>
+    </nxp_compatible_hw>
+</data:item>

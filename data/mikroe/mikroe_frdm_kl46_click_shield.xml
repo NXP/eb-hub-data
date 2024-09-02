@@ -1,0 +1,23 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_frdm_kl46_click_shield" name="FRDM KL46 Click shield" vendor="mikroe" versionSchema="1.1.0">
+    <images>
+        <file path="FRDM_KL46_Click_shield.png"></file>
+    </images>
+    <display_title>
+        An extension for NXP&amp;#x27;s FRDM-KL46Z development platform
+    </display_title>
+    <overview>
+        <![CDATA[Quickly add functionalities like GSM, GPS, WiFi, ZigBee, Bluetooth, or thunder detection, proximity and color sensing and so on<br>]]>
+    </overview>
+    <connectors>
+        <connector type="frdm_header"></connector>
+    </connectors>
+    <category name="interface">
+        <category name="adapter"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/frdm-kl46-click-shield"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-KL46Z"></hw>
+    </nxp_compatible_hw>
+</data:item>

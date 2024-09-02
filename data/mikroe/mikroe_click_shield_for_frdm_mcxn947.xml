@@ -1,0 +1,23 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_click_shield_for_frdm_mcxn947" name="Click Shield for FRDM-MCXN947" vendor="mikroe" versionSchema="1.1.0">
+    <images>
+        <file path="click_shield_frdm_mcxn947.png"></file>
+    </images>
+    <display_title>
+        Enhance the FRDM-MCXN947 board&#x27;s capabilities using mikroBUS™ sockets to access a wide array of Click boards™ instantly.
+    </display_title>
+    <overview>
+        <![CDATA[Click Shield for FRDM-MCXN947 is the perfect solution for quickly and easily expanding the capabilities of the FRDM-MCXN947 host board with many Click boards™, enabling the creation of complex and unique projects. The Click Shield for FRDM-MCXN947 provides three mikroBUS™ sockets to add any functionality from growing range of Click boards™.]]>
+    </overview>
+    <connectors>
+        <connector type="frdm_header"></connector>
+    </connectors>
+    <category name="interface">
+        <category name="adapter"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/click-shield-for-frdm-mcxn947"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+</data:item>

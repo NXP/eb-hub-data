@@ -1,0 +1,23 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_frdm_k64_click_shield" name="FRDM K64 Click shield" vendor="mikroe" versionSchema="1.1.0">
+    <images>
+        <file path="FRDM_K64_Click_shield.png"></file>
+    </images>
+    <display_title>
+        A simple shield with two mikroBUS™ sockets for Click boards™ connectivity for NXP&amp;#x27;s FRDM-KL64F development platform
+    </display_title>
+    <overview>
+        <![CDATA[FRDM-K64F Click shield is an extension for Freescale's FRDM-K64F development platform. It's a simple shield with two mikroBUS host sockets that allow you to interface more than&nbsp;1531&nbsp;different types of click boards with the Kinetis MK64FN1M0VLL12 MCU aboard FRDM-KL64Z. Quickly add functionalities like GSM, GPS, WiFi, ZigBee, Bluetooth, or thunder detection, proximity and color sensing and so on. The package includes two 1x8 headers, and single 1x10, and 1x6 headers.<br>]]>
+    </overview>
+    <connectors>
+        <connector type="frdm_header"></connector>
+    </connectors>
+    <category name="interface">
+        <category name="adapter"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/frdm-k64-click-shield"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-K64F"></hw>
+    </nxp_compatible_hw>
+</data:item>

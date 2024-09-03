@@ -3,7 +3,7 @@
         <file path="FRDM_KL46_Click_shield.png"></file>
     </images>
     <display_title>
-        An extension for NXP&amp;#x27;s FRDM-KL46Z development platform
+        An extension for NXP's FRDM-KL46Z development platform
     </display_title>
     <overview>
         <![CDATA[Quickly add functionalities like GSM, GPS, WiFi, ZigBee, Bluetooth, or thunder detection, proximity and color sensing and so on<br>]]>

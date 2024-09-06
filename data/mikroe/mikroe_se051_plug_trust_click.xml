@@ -1,0 +1,33 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_se051_plug_trust_click" name="SE051 Plug Trust Click" vendor="mikroe" versionSchema="1.1.0">
+    <images>
+        <file path="SE051_Plug_Trust_Click.png"></file>
+    </images>
+    <display_title>
+        A compact add-on board representing a ready-to-use IoT security solution
+    </display_title>
+    <overview>
+        <![CDATA[This board features the SE051C2, an updatable extension of the EdgeLock® SE050 from NXP Semiconductor, which delivers proven security certified to CC EAL 6+, with AVA_VAN.5 up to the OS level. Designed for the latest IoT security requirements, it allows securely storing and provisioning credentials performing cryptographic operations, giving edge-to-cloud security capability right out of the box. It also provides upgrade functionality of the IoT applet while preserving on-device credentials, alongside reconfiguration possibility. This Click board™ is versatile in IoT security use cases such as secure connection to public/private clouds, device-to-device authentication or protection of sensor data, attestation and proof of device origin, and many more.]]>
+    </overview>
+    <connectors>
+        <connector type="mikrobus"></connector>
+    </connectors>
+    <category name="interface">
+        <category name="i2c"></category>
+    </category>
+    <category name="security">
+        <category name="secure_element"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/se051-plugtrust-click"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1060-EVKB"></hw>
+        <hw id="EVK-MIMX8ML"></hw>
+        <hw id="EVK-MIMX8MM"></hw>
+        <hw id="LPCXpresso55S69"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+        <hw id="FRDM-K64F"></hw>
+    </nxp_compatible_hw>
+</data:item>

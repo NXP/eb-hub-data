@@ -1,0 +1,32 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_om_a5000ard" name="OM-A5000ARD" vendor="nxp" versionSchema="1.1.0">
+    <images>
+        <file path="OM_A5000ARD_ANGLE_VIEW.png"></file>
+    </images>
+    <display_title>
+        Development Board for EdgeLock® A5000 Secure Authenticator
+    </display_title>
+    <overview>
+        <![CDATA[The OM-A5000ARD is a flexible and easy-to-use development kit for the EdgeLock A5000 secure authenticator. It can be used in various ways, for example, via the Arduino interface compatible to any board featuring an Arduino compatible header, including many i.MX, LPC and Kinetis® boards or via a direct I2C connection. This kit allows the evaluation of the EdgeLock A5000 secure authenticator features and simplifies the development of secure authentication applications.]]>
+    </overview>
+    <connectors>
+        <connector type="arduino_header"></connector>
+        <connector type="frdm_header"></connector>
+        <connector type="lpcxpresso_v3_header"></connector>
+    </connectors>
+    <category name="security">
+        <category name="secure_element"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/products/security-and-authentication/authentication/development-board-for-edgelock-a5000-secure-authenticator:OM-A5000ARD"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1060-EVKB"></hw>
+        <hw id="EVK-MIMX8ML"></hw>
+        <hw id="EVK-MIMX8MM"></hw>
+        <hw id="LPCXpresso55S69"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+        <hw id="FRDM-K64F"></hw>
+    </nxp_compatible_hw>
+</data:item>

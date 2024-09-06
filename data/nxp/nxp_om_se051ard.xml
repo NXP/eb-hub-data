@@ -1,0 +1,33 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_om_se051ard" name="OM-SE051ARD" vendor="nxp" versionSchema="1.1.0">
+    <images>
+        <file path="OM_SE051ARD_DEV_KIT.png"></file>
+    </images>
+    <display_title>
+        EdgeLock® SE051 Development Kit
+    </display_title>
+    <overview>
+        <![CDATA[The OM-SE051ARD is the flexible and easy-to-use development kit for the EdgeLock SE051 IoT Secure Element product family. It can be used in various ways, for example, via the Arduino interface compatible to any board featuring an Arduino compatible header, including many i.MX, LPC and Kinetis® boards or via a direct I2C connection. This kit allows evaluation of the SE051 product family features and simplifies the development of secure IoT applications.The OM-SE051ARD is configured with a SE051C2HQ1/Z01XD type.]]>
+    </overview>
+    <connectors>
+        <connector type="arduino_header"></connector>
+        <connector type="frdm_header"></connector>
+        <connector type="lpcxpresso_v3_header"></connector>
+    </connectors>
+    <category name="security">
+        <category name="secure_element"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/products/security-and-authentication/authentication/edgelock-se051-development-kit:OM-SE051ARD"/>
+        <link type="pack" href="https://www.nxp.com/products/security-and-authentication/authentication/edgelock-se051-development-kit:OM-SE051ARD"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1060-EVKB"></hw>
+        <hw id="EVK-MIMX8ML"></hw>
+        <hw id="EVK-MIMX8MM"></hw>
+        <hw id="LPCXpresso55S69"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+        <hw id="FRDM-K64F"></hw>
+    </nxp_compatible_hw>
+</data:item>

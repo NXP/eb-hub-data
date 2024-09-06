@@ -1,0 +1,33 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="mikroe_a5000_plug_trust_click" name="A5000 Plug Trust Click" vendor="mikroe" versionSchema="1.1.0">
+    <images>
+        <file path="A5000_Plug_Trust_Click.png"></file>
+    </images>
+    <display_title>
+        A compact add-on board representing a ready-to-use secure IoT authenticator
+    </display_title>
+    <overview>
+        <![CDATA[This board features the EdgeLock® A5000, a Secure Authenticator from NXP Semiconductors. The A5000 provides a root of trust at the IC level, giving an IoT authentication system state-of-the-art security capability. It allows for securely storing and provisioning credentials and performing cryptographic operations for security-critical communication and authentication functions. It has an independent Common Criteria EAL 6+ security certification up to OS level and supports ECC asymmetric cryptographic and AES/3DES symmetric algorithms. This Click board™ is suitable in IoT security use cases such as secure connection to public/private clouds, device-to-device authentication, or counterfeit protection.<br>]]>
+    </overview>
+    <connectors>
+        <connector type="mikrobus"></connector>
+    </connectors>
+    <category name="interface">
+        <category name="i2c"></category>
+    </category>
+    <category name="security">
+        <category name="secure_element"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.mikroe.com/a5000-plugtrust-click"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1060-EVKB"></hw>
+        <hw id="EVK-MIMX8ML"></hw>
+        <hw id="EVK-MIMX8MM"></hw>
+        <hw id="LPCXpresso55S69"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+        <hw id="FRDM-K64F"></hw>
+    </nxp_compatible_hw>
+</data:item>

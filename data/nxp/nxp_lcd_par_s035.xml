@@ -1,4 +1,4 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_lcd_par_s035" name="LCD-PAR-S035" type="pmod" vendor="nxp" versionSchema="1.0.0">
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_lcd_par_s035" name="LCD-PAR-S035" vendor="nxp" versionSchema="1.1.0">
     <images>
         <file path="LCD_PAR_S035_TOP.png"></file>
     </images>
@@ -8,6 +8,10 @@
     <overview>
         <![CDATA[The PAR-LCD-S035 is a 3.5” 480x320 IPS TFT LCD module with wide viewing angle and 5-point capacitive touch functionality. The LCD module can be controlled through either SPI or parallel (8/16bit) 8080/6800 and is compatible with existing evaluation kits with a PMOD connector as well as selected FRDM-X evaluation kits with a parallel LCD connector.<br>]]>
     </overview>
+    <connectors>
+        <connector type="other"></connector>
+        <connector type="pmod"></connector>
+    </connectors>
     <category name="display">
         <category name="graphical_display"></category>
         <category name="lcd_display"></category>

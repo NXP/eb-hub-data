@@ -1,0 +1,33 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_om_se052ard" name="OM-SE052ARD" vendor="nxp" versionSchema="1.1.0">
+    <images>
+        <file path="OM_SE052ARD_ISO.png"></file>
+    </images>
+    <display_title>
+        Development Board for EdgeLock® SE052F Secure Element
+    </display_title>
+    <overview>
+        <![CDATA[The OM-SE052ARD is a flexible and easy-to-use development kit for easy integration of EdgeLock SE052F Secure Element — the first hardware Secure Element certified to FIPS 140-3 Level 3. It includes a Mini PCB with Raspberry Pi compatible GPIO pinout. The development kit can be used in various ways, for example, via the Arduino interface compatible to any board featuring an Arduino compatible header, including many i.MX, LPC, MCX and Kinetis® boards. The kit allows the evaluation of the EdgeLock SE052F Secure Element features and simplifies the development of secure industrial applications.]]>
+    </overview>
+    <connectors>
+        <connector type="arduino_header"></connector>
+        <connector type="frdm_header"></connector>
+        <connector type="lpcxpresso_v3_header"></connector>
+    </connectors>
+    <category name="security">
+        <category name="secure_element"></category>
+    </category>
+    <links>
+        <link type="product" href="https://www.nxp.com/products/security-and-authentication/authentication/om-se052ard-development-board-for-edgelock-se052f-secure-element:OM-SE052ARD"/>
+    </links>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1170-EVKB"></hw>
+        <hw id="MIMXRT1160-EVK"></hw>
+        <hw id="EVK-MIMX8ML"></hw>
+        <hw id="EVK-MIMX8MM"></hw>
+        <hw id="LPCXpresso55S69"></hw>
+        <hw id="FRDM-MCXN947"></hw>
+        <hw id="FRDM-K64F"></hw>
+    </nxp_compatible_hw>
+</data:item>

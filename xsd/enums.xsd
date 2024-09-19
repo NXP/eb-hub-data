@@ -523,7 +523,7 @@
           <documentation> Speech recognition ( Applies for "audio" only ) </documentation>
         </annotation>
       </enumeration>
-      <enumeration value="signal_processing">
+      <enumeration value="signal_processing2">
         <annotation>
           <documentation> Signal Processing ( Applies for "audio" only ) </documentation>
         </annotation>
@@ -659,6 +659,11 @@
       <enumeration value="other_analog_front_end">
         <annotation>
           <documentation> Other Analog front end ( Applies for "analog_front_end" only ) </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="signal_processing">
+        <annotation>
+          <documentation> Signal Processing ( Applies for "analog_front_end" only ) </documentation>
         </annotation>
       </enumeration>
 

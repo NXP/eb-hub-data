@@ -1,4 +1,4 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_nafexx388_evb" name="NAFExx388-EVB" type="other" vendor="nxp" versionSchema="1.0.0">
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/eb-hub.xsd" id="nxp_nafexx388_evb" name="NAFExx388-EVB" vendor="nxp" versionSchema="1.1.0">
     <images>
         <file path="NAFExx388_EVB.png"></file>
     </images>
@@ -8,7 +8,10 @@
     <overview>
         <![CDATA[The NAFExx388-EVB is easy to test and designed for the NAFExx388, which is a highly configurable, industrial-grade multichannel analog input analog front-end (AFE). The board, connected to an LPC54628 MCU board, allows for easy configuration and reading of the measurement data thanks to a dedicated GUI which is installed in the PC. The board supports voltage, current, RTD and thermocouple measurements allow for fast and easy development of the final application.]]>
     </overview>
-    <category name="audio">
+    <connectors>
+        <connector type="other"></connector>
+    </connectors>
+    <category name="analog_front_end">
         <category name="signal_processing"></category>
     </category>
     <links>
